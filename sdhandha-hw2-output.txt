@@ -1,0 +1,3301 @@
+/*
+*   Author Satvik Dhandhania (sdhandha)
+*   Date: 01/27/2016 
+*/
+
+
+Dumping host connections
+
+
+
+
+Testing network connectivity - PING
+
+
+
+
+Testing between h1 & h2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=9.28 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=3.40 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=2.76 ms
+64 bytes from 10.0.0.2: icmp_seq=6 ttl=64 time=2.51 ms
+64 bytes from 10.0.0.2: icmp_seq=7 ttl=64 time=2.89 ms
+64 bytes from 10.0.0.2: icmp_seq=8 ttl=64 time=2.59 ms
+64 bytes from 10.0.0.2: icmp_seq=9 ttl=64 time=2.64 ms
+64 bytes from 10.0.0.2: icmp_seq=10 ttl=64 time=2.46 ms
+
+--- 10.0.0.2 ping statistics ---
+10 packets transmitted, 8 received, 20% packet loss, time 9019ms
+rtt min/avg/max/mdev = 2.462/3.569/9.284/2.178 ms
+
+
+
+Testing between h1 & h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=14.9 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=4.94 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=4.46 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=4.70 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=4.69 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=4.80 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=5.37 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=4.81 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=4.67 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=4.64 ms
+
+--- 10.0.0.3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 4.469/5.804/14.914/3.045 ms
+
+
+
+Testing between h1 & h4
+PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=25.2 ms
+64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=11.4 ms
+64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=11.1 ms
+64 bytes from 10.0.0.4: icmp_seq=4 ttl=64 time=10.5 ms
+64 bytes from 10.0.0.4: icmp_seq=5 ttl=64 time=10.8 ms
+64 bytes from 10.0.0.4: icmp_seq=6 ttl=64 time=10.6 ms
+64 bytes from 10.0.0.4: icmp_seq=7 ttl=64 time=11.2 ms
+64 bytes from 10.0.0.4: icmp_seq=8 ttl=64 time=11.1 ms
+64 bytes from 10.0.0.4: icmp_seq=9 ttl=64 time=10.7 ms
+64 bytes from 10.0.0.4: icmp_seq=10 ttl=64 time=10.9 ms
+
+--- 10.0.0.4 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 10.529/12.390/25.266/4.300 ms
+
+
+
+Testing between h1 & h5
+PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
+64 bytes from 10.0.0.5: icmp_seq=1 ttl=64 time=33.1 ms
+64 bytes from 10.0.0.5: icmp_seq=2 ttl=64 time=10.8 ms
+64 bytes from 10.0.0.5: icmp_seq=3 ttl=64 time=10.5 ms
+64 bytes from 10.0.0.5: icmp_seq=4 ttl=64 time=10.6 ms
+64 bytes from 10.0.0.5: icmp_seq=5 ttl=64 time=10.8 ms
+64 bytes from 10.0.0.5: icmp_seq=6 ttl=64 time=10.8 ms
+64 bytes from 10.0.0.5: icmp_seq=8 ttl=64 time=10.9 ms
+64 bytes from 10.0.0.5: icmp_seq=9 ttl=64 time=10.6 ms
+64 bytes from 10.0.0.5: icmp_seq=10 ttl=64 time=10.7 ms
+
+--- 10.0.0.5 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9020ms
+rtt min/avg/max/mdev = 10.592/13.254/33.141/7.032 ms
+
+
+
+Testing between h1 & h6
+PING 10.0.0.6 (10.0.0.6) 56(84) bytes of data.
+64 bytes from 10.0.0.6: icmp_seq=1 ttl=64 time=29.4 ms
+64 bytes from 10.0.0.6: icmp_seq=2 ttl=64 time=13.0 ms
+64 bytes from 10.0.0.6: icmp_seq=3 ttl=64 time=12.5 ms
+64 bytes from 10.0.0.6: icmp_seq=4 ttl=64 time=12.7 ms
+64 bytes from 10.0.0.6: icmp_seq=5 ttl=64 time=12.9 ms
+64 bytes from 10.0.0.6: icmp_seq=6 ttl=64 time=12.4 ms
+64 bytes from 10.0.0.6: icmp_seq=7 ttl=64 time=13.3 ms
+64 bytes from 10.0.0.6: icmp_seq=8 ttl=64 time=12.9 ms
+64 bytes from 10.0.0.6: icmp_seq=9 ttl=64 time=12.7 ms
+
+--- 10.0.0.6 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9012ms
+rtt min/avg/max/mdev = 12.494/14.680/29.443/5.225 ms
+
+
+
+Testing between h1 & h7
+PING 10.0.0.7 (10.0.0.7) 56(84) bytes of data.
+64 bytes from 10.0.0.7: icmp_seq=1 ttl=64 time=73.4 ms
+64 bytes from 10.0.0.7: icmp_seq=2 ttl=64 time=34.3 ms
+64 bytes from 10.0.0.7: icmp_seq=3 ttl=64 time=34.3 ms
+64 bytes from 10.0.0.7: icmp_seq=4 ttl=64 time=34.0 ms
+64 bytes from 10.0.0.7: icmp_seq=5 ttl=64 time=33.6 ms
+64 bytes from 10.0.0.7: icmp_seq=6 ttl=64 time=33.2 ms
+64 bytes from 10.0.0.7: icmp_seq=7 ttl=64 time=34.0 ms
+64 bytes from 10.0.0.7: icmp_seq=8 ttl=64 time=33.6 ms
+64 bytes from 10.0.0.7: icmp_seq=9 ttl=64 time=33.0 ms
+64 bytes from 10.0.0.7: icmp_seq=10 ttl=64 time=33.3 ms
+
+--- 10.0.0.7 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9008ms
+rtt min/avg/max/mdev = 33.002/37.708/73.409/11.908 ms
+
+
+
+Testing between h1 & h8
+PING 10.0.0.8 (10.0.0.8) 56(84) bytes of data.
+64 bytes from 10.0.0.8: icmp_seq=1 ttl=64 time=74.3 ms
+64 bytes from 10.0.0.8: icmp_seq=2 ttl=64 time=34.6 ms
+64 bytes from 10.0.0.8: icmp_seq=3 ttl=64 time=33.1 ms
+64 bytes from 10.0.0.8: icmp_seq=4 ttl=64 time=33.2 ms
+64 bytes from 10.0.0.8: icmp_seq=5 ttl=64 time=33.5 ms
+64 bytes from 10.0.0.8: icmp_seq=6 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.8: icmp_seq=7 ttl=64 time=34.3 ms
+64 bytes from 10.0.0.8: icmp_seq=9 ttl=64 time=34.2 ms
+64 bytes from 10.0.0.8: icmp_seq=10 ttl=64 time=69.8 ms
+
+--- 10.0.0.8 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9008ms
+rtt min/avg/max/mdev = 33.160/42.348/74.320/15.935 ms
+
+
+
+Testing between h2 & h1
+PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=4.17 ms
+64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=2.58 ms
+64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=2.65 ms
+64 bytes from 10.0.0.1: icmp_seq=4 ttl=64 time=2.79 ms
+64 bytes from 10.0.0.1: icmp_seq=5 ttl=64 time=2.73 ms
+64 bytes from 10.0.0.1: icmp_seq=7 ttl=64 time=2.69 ms
+64 bytes from 10.0.0.1: icmp_seq=8 ttl=64 time=2.41 ms
+64 bytes from 10.0.0.1: icmp_seq=9 ttl=64 time=2.46 ms
+64 bytes from 10.0.0.1: icmp_seq=10 ttl=64 time=3.10 ms
+
+--- 10.0.0.1 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9012ms
+rtt min/avg/max/mdev = 2.418/2.847/4.176/0.509 ms
+
+
+
+Testing between h2 & h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=24.2 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=7.46 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=7.42 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=7.24 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=6.54 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=7.64 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=6.91 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=6.88 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=6.97 ms
+
+--- 10.0.0.3 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9020ms
+rtt min/avg/max/mdev = 6.543/9.041/24.271/5.394 ms
+
+
+
+Testing between h2 & h4
+PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=21.3 ms
+64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=8.93 ms
+64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=8.95 ms
+64 bytes from 10.0.0.4: icmp_seq=4 ttl=64 time=8.77 ms
+64 bytes from 10.0.0.4: icmp_seq=5 ttl=64 time=8.93 ms
+64 bytes from 10.0.0.4: icmp_seq=6 ttl=64 time=8.84 ms
+64 bytes from 10.0.0.4: icmp_seq=7 ttl=64 time=8.80 ms
+64 bytes from 10.0.0.4: icmp_seq=8 ttl=64 time=9.32 ms
+64 bytes from 10.0.0.4: icmp_seq=9 ttl=64 time=9.02 ms
+64 bytes from 10.0.0.4: icmp_seq=10 ttl=64 time=8.80 ms
+
+--- 10.0.0.4 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 8.772/10.176/21.364/3.732 ms
+
+
+
+Testing between h2 & h5
+PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
+64 bytes from 10.0.0.5: icmp_seq=1 ttl=64 time=23.3 ms
+64 bytes from 10.0.0.5: icmp_seq=2 ttl=64 time=9.12 ms
+64 bytes from 10.0.0.5: icmp_seq=3 ttl=64 time=8.92 ms
+64 bytes from 10.0.0.5: icmp_seq=4 ttl=64 time=8.94 ms
+64 bytes from 10.0.0.5: icmp_seq=5 ttl=64 time=8.91 ms
+64 bytes from 10.0.0.5: icmp_seq=6 ttl=64 time=9.02 ms
+64 bytes from 10.0.0.5: icmp_seq=7 ttl=64 time=8.74 ms
+64 bytes from 10.0.0.5: icmp_seq=8 ttl=64 time=9.00 ms
+64 bytes from 10.0.0.5: icmp_seq=9 ttl=64 time=8.57 ms
+64 bytes from 10.0.0.5: icmp_seq=10 ttl=64 time=8.79 ms
+
+--- 10.0.0.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+rtt min/avg/max/mdev = 8.578/10.345/23.394/4.352 ms
+
+
+
+Testing between h2 & h6
+PING 10.0.0.6 (10.0.0.6) 56(84) bytes of data.
+64 bytes from 10.0.0.6: icmp_seq=1 ttl=64 time=1036 ms
+64 bytes from 10.0.0.6: icmp_seq=2 ttl=64 time=29.1 ms
+64 bytes from 10.0.0.6: icmp_seq=3 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.6: icmp_seq=5 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.6: icmp_seq=6 ttl=64 time=15.0 ms
+64 bytes from 10.0.0.6: icmp_seq=7 ttl=64 time=15.1 ms
+64 bytes from 10.0.0.6: icmp_seq=9 ttl=64 time=16.0 ms
+64 bytes from 10.0.0.6: icmp_seq=10 ttl=64 time=15.4 ms
+
+--- 10.0.0.6 ping statistics ---
+10 packets transmitted, 8 received, 20% packet loss, time 9032ms
+rtt min/avg/max/mdev = 15.066/145.101/1036.933/337.109 ms, pipe 2
+
+
+
+Testing between h2 & h7
+PING 10.0.0.7 (10.0.0.7) 56(84) bytes of data.
+64 bytes from 10.0.0.7: icmp_seq=2 ttl=64 time=37.9 ms
+64 bytes from 10.0.0.7: icmp_seq=4 ttl=64 time=36.6 ms
+64 bytes from 10.0.0.7: icmp_seq=5 ttl=64 time=36.0 ms
+64 bytes from 10.0.0.7: icmp_seq=6 ttl=64 time=36.2 ms
+64 bytes from 10.0.0.7: icmp_seq=7 ttl=64 time=36.4 ms
+64 bytes from 10.0.0.7: icmp_seq=8 ttl=64 time=35.7 ms
+64 bytes from 10.0.0.7: icmp_seq=9 ttl=64 time=35.6 ms
+64 bytes from 10.0.0.7: icmp_seq=10 ttl=64 time=36.8 ms
+
+--- 10.0.0.7 ping statistics ---
+10 packets transmitted, 8 received, 20% packet loss, time 9023ms
+rtt min/avg/max/mdev = 35.651/36.447/37.952/0.695 ms
+
+
+
+Testing between h2 & h8
+PING 10.0.0.8 (10.0.0.8) 56(84) bytes of data.
+64 bytes from 10.0.0.8: icmp_seq=1 ttl=64 time=85.5 ms
+64 bytes from 10.0.0.8: icmp_seq=2 ttl=64 time=36.6 ms
+64 bytes from 10.0.0.8: icmp_seq=3 ttl=64 time=35.4 ms
+64 bytes from 10.0.0.8: icmp_seq=4 ttl=64 time=36.4 ms
+64 bytes from 10.0.0.8: icmp_seq=6 ttl=64 time=37.4 ms
+64 bytes from 10.0.0.8: icmp_seq=7 ttl=64 time=36.0 ms
+64 bytes from 10.0.0.8: icmp_seq=8 ttl=64 time=35.9 ms
+64 bytes from 10.0.0.8: icmp_seq=9 ttl=64 time=35.8 ms
+64 bytes from 10.0.0.8: icmp_seq=10 ttl=64 time=34.7 ms
+
+--- 10.0.0.8 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9018ms
+rtt min/avg/max/mdev = 34.786/41.579/85.599/15.581 ms
+
+
+
+Testing between h3 & h1
+PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=7.45 ms
+64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=5.93 ms
+64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=5.32 ms
+64 bytes from 10.0.0.1: icmp_seq=4 ttl=64 time=4.46 ms
+64 bytes from 10.0.0.1: icmp_seq=5 ttl=64 time=4.54 ms
+64 bytes from 10.0.0.1: icmp_seq=6 ttl=64 time=4.88 ms
+64 bytes from 10.0.0.1: icmp_seq=7 ttl=64 time=4.88 ms
+64 bytes from 10.0.0.1: icmp_seq=8 ttl=64 time=5.10 ms
+64 bytes from 10.0.0.1: icmp_seq=9 ttl=64 time=4.88 ms
+64 bytes from 10.0.0.1: icmp_seq=10 ttl=64 time=5.00 ms
+
+--- 10.0.0.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 4.463/5.249/7.458/0.835 ms
+
+
+
+Testing between h3 & h2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=9.86 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=7.41 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=7.01 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=6.93 ms
+64 bytes from 10.0.0.2: icmp_seq=6 ttl=64 time=6.83 ms
+64 bytes from 10.0.0.2: icmp_seq=7 ttl=64 time=6.90 ms
+64 bytes from 10.0.0.2: icmp_seq=8 ttl=64 time=6.78 ms
+64 bytes from 10.0.0.2: icmp_seq=9 ttl=64 time=6.97 ms
+64 bytes from 10.0.0.2: icmp_seq=10 ttl=64 time=6.89 ms
+
+--- 10.0.0.2 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9020ms
+rtt min/avg/max/mdev = 6.784/7.289/9.868/0.932 ms
+
+
+
+Testing between h3 & h4
+PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=34.8 ms
+64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=16.1 ms
+64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=15.0 ms
+64 bytes from 10.0.0.4: icmp_seq=4 ttl=64 time=15.1 ms
+64 bytes from 10.0.0.4: icmp_seq=5 ttl=64 time=15.7 ms
+64 bytes from 10.0.0.4: icmp_seq=6 ttl=64 time=15.4 ms
+64 bytes from 10.0.0.4: icmp_seq=7 ttl=64 time=16.2 ms
+64 bytes from 10.0.0.4: icmp_seq=10 ttl=64 time=16.8 ms
+
+--- 10.0.0.4 ping statistics ---
+10 packets transmitted, 8 received, 20% packet loss, time 9025ms
+rtt min/avg/max/mdev = 15.038/18.195/34.807/6.308 ms
+
+
+
+Testing between h3 & h5
+PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
+64 bytes from 10.0.0.5: icmp_seq=1 ttl=64 time=39.6 ms
+64 bytes from 10.0.0.5: icmp_seq=2 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.5: icmp_seq=3 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.5: icmp_seq=5 ttl=64 time=16.7 ms
+64 bytes from 10.0.0.5: icmp_seq=6 ttl=64 time=15.5 ms
+64 bytes from 10.0.0.5: icmp_seq=7 ttl=64 time=16.1 ms
+64 bytes from 10.0.0.5: icmp_seq=8 ttl=64 time=15.9 ms
+64 bytes from 10.0.0.5: icmp_seq=9 ttl=64 time=15.8 ms
+64 bytes from 10.0.0.5: icmp_seq=10 ttl=64 time=15.4 ms
+
+--- 10.0.0.5 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9019ms
+rtt min/avg/max/mdev = 15.469/18.792/39.675/7.405 ms
+
+
+
+Testing between h3 & h6
+PING 10.0.0.6 (10.0.0.6) 56(84) bytes of data.
+64 bytes from 10.0.0.6: icmp_seq=1 ttl=64 time=21.4 ms
+64 bytes from 10.0.0.6: icmp_seq=2 ttl=64 time=8.84 ms
+64 bytes from 10.0.0.6: icmp_seq=3 ttl=64 time=8.80 ms
+64 bytes from 10.0.0.6: icmp_seq=4 ttl=64 time=8.85 ms
+64 bytes from 10.0.0.6: icmp_seq=5 ttl=64 time=8.74 ms
+64 bytes from 10.0.0.6: icmp_seq=6 ttl=64 time=8.64 ms
+64 bytes from 10.0.0.6: icmp_seq=7 ttl=64 time=9.24 ms
+64 bytes from 10.0.0.6: icmp_seq=8 ttl=64 time=9.24 ms
+64 bytes from 10.0.0.6: icmp_seq=9 ttl=64 time=8.46 ms
+64 bytes from 10.0.0.6: icmp_seq=10 ttl=64 time=9.12 ms
+
+--- 10.0.0.6 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 8.463/10.137/21.413/3.768 ms
+
+
+
+Testing between h3 & h7
+PING 10.0.0.7 (10.0.0.7) 56(84) bytes of data.
+64 bytes from 10.0.0.7: icmp_seq=1 ttl=64 time=68.0 ms
+64 bytes from 10.0.0.7: icmp_seq=2 ttl=64 time=30.0 ms
+64 bytes from 10.0.0.7: icmp_seq=3 ttl=64 time=30.1 ms
+64 bytes from 10.0.0.7: icmp_seq=4 ttl=64 time=30.4 ms
+64 bytes from 10.0.0.7: icmp_seq=5 ttl=64 time=30.4 ms
+64 bytes from 10.0.0.7: icmp_seq=6 ttl=64 time=29.5 ms
+64 bytes from 10.0.0.7: icmp_seq=7 ttl=64 time=29.9 ms
+64 bytes from 10.0.0.7: icmp_seq=8 ttl=64 time=30.5 ms
+64 bytes from 10.0.0.7: icmp_seq=9 ttl=64 time=29.7 ms
+64 bytes from 10.0.0.7: icmp_seq=10 ttl=64 time=28.7 ms
+
+--- 10.0.0.7 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 28.786/33.774/68.018/11.427 ms
+
+
+
+Testing between h3 & h8
+PING 10.0.0.8 (10.0.0.8) 56(84) bytes of data.
+64 bytes from 10.0.0.8: icmp_seq=1 ttl=64 time=64.3 ms
+64 bytes from 10.0.0.8: icmp_seq=2 ttl=64 time=29.1 ms
+64 bytes from 10.0.0.8: icmp_seq=3 ttl=64 time=28.8 ms
+64 bytes from 10.0.0.8: icmp_seq=4 ttl=64 time=29.8 ms
+64 bytes from 10.0.0.8: icmp_seq=5 ttl=64 time=29.7 ms
+64 bytes from 10.0.0.8: icmp_seq=6 ttl=64 time=29.9 ms
+64 bytes from 10.0.0.8: icmp_seq=7 ttl=64 time=29.8 ms
+64 bytes from 10.0.0.8: icmp_seq=8 ttl=64 time=28.8 ms
+64 bytes from 10.0.0.8: icmp_seq=9 ttl=64 time=29.1 ms
+64 bytes from 10.0.0.8: icmp_seq=10 ttl=64 time=29.3 ms
+
+--- 10.0.0.8 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 28.838/32.895/64.322/10.484 ms
+
+
+
+Testing between h4 & h1
+PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=13.6 ms
+64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=13.9 ms
+64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=11.5 ms
+64 bytes from 10.0.0.1: icmp_seq=4 ttl=64 time=11.6 ms
+64 bytes from 10.0.0.1: icmp_seq=5 ttl=64 time=11.5 ms
+64 bytes from 10.0.0.1: icmp_seq=6 ttl=64 time=11.8 ms
+64 bytes from 10.0.0.1: icmp_seq=7 ttl=64 time=11.8 ms
+64 bytes from 10.0.0.1: icmp_seq=8 ttl=64 time=11.4 ms
+64 bytes from 10.0.0.1: icmp_seq=9 ttl=64 time=11.7 ms
+64 bytes from 10.0.0.1: icmp_seq=10 ttl=64 time=11.6 ms
+
+--- 10.0.0.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 11.496/12.099/13.928/0.877 ms
+
+
+
+Testing between h4 & h2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=11.3 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=10.3 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=9.01 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=9.66 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=8.71 ms
+64 bytes from 10.0.0.2: icmp_seq=6 ttl=64 time=8.76 ms
+64 bytes from 10.0.0.2: icmp_seq=7 ttl=64 time=8.90 ms
+64 bytes from 10.0.0.2: icmp_seq=8 ttl=64 time=8.47 ms
+64 bytes from 10.0.0.2: icmp_seq=9 ttl=64 time=9.28 ms
+64 bytes from 10.0.0.2: icmp_seq=10 ttl=64 time=8.71 ms
+
+--- 10.0.0.2 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+rtt min/avg/max/mdev = 8.477/9.325/11.341/0.865 ms
+
+
+
+Testing between h4 & h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=18.6 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=16.5 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=14.5 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=15.9 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=15.0 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=15.0 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=15.9 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=15.9 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=15.9 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=15.2 ms
+
+--- 10.0.0.3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 14.507/15.875/18.632/1.097 ms
+
+
+
+Testing between h4 & h5
+PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
+64 bytes from 10.0.0.5: icmp_seq=1 ttl=64 time=3.00 ms
+64 bytes from 10.0.0.5: icmp_seq=2 ttl=64 time=0.166 ms
+64 bytes from 10.0.0.5: icmp_seq=3 ttl=64 time=0.147 ms
+64 bytes from 10.0.0.5: icmp_seq=4 ttl=64 time=0.044 ms
+64 bytes from 10.0.0.5: icmp_seq=5 ttl=64 time=0.043 ms
+64 bytes from 10.0.0.5: icmp_seq=6 ttl=64 time=0.050 ms
+64 bytes from 10.0.0.5: icmp_seq=7 ttl=64 time=0.189 ms
+64 bytes from 10.0.0.5: icmp_seq=8 ttl=64 time=0.275 ms
+64 bytes from 10.0.0.5: icmp_seq=9 ttl=64 time=0.049 ms
+64 bytes from 10.0.0.5: icmp_seq=10 ttl=64 time=0.046 ms
+
+--- 10.0.0.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9001ms
+rtt min/avg/max/mdev = 0.043/0.401/3.001/0.870 ms
+
+
+
+Testing between h4 & h6
+PING 10.0.0.6 (10.0.0.6) 56(84) bytes of data.
+64 bytes from 10.0.0.6: icmp_seq=1 ttl=64 time=55.3 ms
+64 bytes from 10.0.0.6: icmp_seq=2 ttl=64 time=24.6 ms
+64 bytes from 10.0.0.6: icmp_seq=3 ttl=64 time=24.5 ms
+64 bytes from 10.0.0.6: icmp_seq=5 ttl=64 time=25.2 ms
+64 bytes from 10.0.0.6: icmp_seq=6 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.6: icmp_seq=7 ttl=64 time=24.2 ms
+64 bytes from 10.0.0.6: icmp_seq=8 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.6: icmp_seq=9 ttl=64 time=23.8 ms
+64 bytes from 10.0.0.6: icmp_seq=10 ttl=64 time=24.0 ms
+
+--- 10.0.0.6 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9019ms
+rtt min/avg/max/mdev = 23.857/28.086/55.329/9.647 ms
+
+
+
+Testing between h4 & h7
+PING 10.0.0.7 (10.0.0.7) 56(84) bytes of data.
+64 bytes from 10.0.0.7: icmp_seq=1 ttl=64 time=105 ms
+64 bytes from 10.0.0.7: icmp_seq=2 ttl=64 time=46.6 ms
+64 bytes from 10.0.0.7: icmp_seq=3 ttl=64 time=44.9 ms
+64 bytes from 10.0.0.7: icmp_seq=4 ttl=64 time=45.2 ms
+64 bytes from 10.0.0.7: icmp_seq=5 ttl=64 time=46.2 ms
+64 bytes from 10.0.0.7: icmp_seq=7 ttl=64 time=46.8 ms
+64 bytes from 10.0.0.7: icmp_seq=8 ttl=64 time=43.0 ms
+64 bytes from 10.0.0.7: icmp_seq=9 ttl=64 time=46.1 ms
+64 bytes from 10.0.0.7: icmp_seq=10 ttl=64 time=44.9 ms
+
+--- 10.0.0.7 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9013ms
+rtt min/avg/max/mdev = 43.032/52.192/105.705/18.952 ms
+
+
+
+Testing between h4 & h8
+PING 10.0.0.8 (10.0.0.8) 56(84) bytes of data.
+64 bytes from 10.0.0.8: icmp_seq=1 ttl=64 time=107 ms
+64 bytes from 10.0.0.8: icmp_seq=3 ttl=64 time=47.3 ms
+64 bytes from 10.0.0.8: icmp_seq=4 ttl=64 time=46.0 ms
+64 bytes from 10.0.0.8: icmp_seq=5 ttl=64 time=46.6 ms
+64 bytes from 10.0.0.8: icmp_seq=6 ttl=64 time=45.2 ms
+64 bytes from 10.0.0.8: icmp_seq=7 ttl=64 time=48.7 ms
+64 bytes from 10.0.0.8: icmp_seq=8 ttl=64 time=46.9 ms
+64 bytes from 10.0.0.8: icmp_seq=9 ttl=64 time=45.6 ms
+
+--- 10.0.0.8 ping statistics ---
+10 packets transmitted, 8 received, 20% packet loss, time 9005ms
+rtt min/avg/max/mdev = 45.207/54.317/107.921/20.286 ms
+
+
+
+Testing between h5 & h1
+PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=16.5 ms
+64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=13.8 ms
+64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=11.7 ms
+64 bytes from 10.0.0.1: icmp_seq=4 ttl=64 time=11.6 ms
+64 bytes from 10.0.0.1: icmp_seq=5 ttl=64 time=11.3 ms
+64 bytes from 10.0.0.1: icmp_seq=6 ttl=64 time=11.4 ms
+64 bytes from 10.0.0.1: icmp_seq=7 ttl=64 time=12.4 ms
+64 bytes from 10.0.0.1: icmp_seq=8 ttl=64 time=11.2 ms
+64 bytes from 10.0.0.1: icmp_seq=9 ttl=64 time=11.1 ms
+64 bytes from 10.0.0.1: icmp_seq=10 ttl=64 time=11.7 ms
+
+--- 10.0.0.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 11.166/12.321/16.575/1.606 ms
+
+
+
+Testing between h5 & h2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=10.4 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=9.85 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=8.89 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=8.47 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=9.60 ms
+64 bytes from 10.0.0.2: icmp_seq=6 ttl=64 time=8.76 ms
+64 bytes from 10.0.0.2: icmp_seq=7 ttl=64 time=8.73 ms
+64 bytes from 10.0.0.2: icmp_seq=8 ttl=64 time=8.80 ms
+64 bytes from 10.0.0.2: icmp_seq=9 ttl=64 time=8.74 ms
+64 bytes from 10.0.0.2: icmp_seq=10 ttl=64 time=9.44 ms
+
+--- 10.0.0.2 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 8.471/9.176/10.461/0.613 ms
+
+
+
+Testing between h5 & h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=22.3 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=18.9 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=15.1 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=16.7 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=15.5 ms
+
+--- 10.0.0.3 ping statistics ---
+10 packets transmitted, 7 received, 30% packet loss, time 9016ms
+rtt min/avg/max/mdev = 15.152/17.379/22.388/2.336 ms
+
+
+
+Testing between h5 & h4
+PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=1.23 ms
+64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=0.254 ms
+64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=0.054 ms
+64 bytes from 10.0.0.4: icmp_seq=4 ttl=64 time=0.273 ms
+64 bytes from 10.0.0.4: icmp_seq=5 ttl=64 time=0.044 ms
+64 bytes from 10.0.0.4: icmp_seq=6 ttl=64 time=0.043 ms
+64 bytes from 10.0.0.4: icmp_seq=7 ttl=64 time=0.261 ms
+64 bytes from 10.0.0.4: icmp_seq=8 ttl=64 time=0.051 ms
+64 bytes from 10.0.0.4: icmp_seq=9 ttl=64 time=0.252 ms
+64 bytes from 10.0.0.4: icmp_seq=10 ttl=64 time=0.051 ms
+
+--- 10.0.0.4 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9002ms
+rtt min/avg/max/mdev = 0.043/0.251/1.230/0.341 ms
+
+
+
+Testing between h5 & h6
+PING 10.0.0.6 (10.0.0.6) 56(84) bytes of data.
+64 bytes from 10.0.0.6: icmp_seq=1 ttl=64 time=65.6 ms
+64 bytes from 10.0.0.6: icmp_seq=2 ttl=64 time=25.0 ms
+64 bytes from 10.0.0.6: icmp_seq=3 ttl=64 time=24.6 ms
+64 bytes from 10.0.0.6: icmp_seq=4 ttl=64 time=24.0 ms
+64 bytes from 10.0.0.6: icmp_seq=5 ttl=64 time=25.2 ms
+64 bytes from 10.0.0.6: icmp_seq=8 ttl=64 time=24.7 ms
+64 bytes from 10.0.0.6: icmp_seq=9 ttl=64 time=24.6 ms
+
+--- 10.0.0.6 ping statistics ---
+10 packets transmitted, 7 received, 30% packet loss, time 9026ms
+rtt min/avg/max/mdev = 24.023/30.585/65.686/14.335 ms
+
+
+
+Testing between h5 & h7
+PING 10.0.0.7 (10.0.0.7) 56(84) bytes of data.
+64 bytes from 10.0.0.7: icmp_seq=1 ttl=64 time=108 ms
+64 bytes from 10.0.0.7: icmp_seq=2 ttl=64 time=46.3 ms
+64 bytes from 10.0.0.7: icmp_seq=3 ttl=64 time=46.4 ms
+64 bytes from 10.0.0.7: icmp_seq=4 ttl=64 time=45.9 ms
+64 bytes from 10.0.0.7: icmp_seq=5 ttl=64 time=44.7 ms
+64 bytes from 10.0.0.7: icmp_seq=6 ttl=64 time=45.0 ms
+64 bytes from 10.0.0.7: icmp_seq=8 ttl=64 time=48.1 ms
+64 bytes from 10.0.0.7: icmp_seq=9 ttl=64 time=46.8 ms
+64 bytes from 10.0.0.7: icmp_seq=10 ttl=64 time=46.7 ms
+
+--- 10.0.0.7 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9019ms
+rtt min/avg/max/mdev = 44.790/53.259/108.973/19.721 ms
+
+
+
+Testing between h5 & h8
+PING 10.0.0.8 (10.0.0.8) 56(84) bytes of data.
+64 bytes from 10.0.0.8: icmp_seq=2 ttl=64 time=49.8 ms
+64 bytes from 10.0.0.8: icmp_seq=3 ttl=64 time=47.4 ms
+64 bytes from 10.0.0.8: icmp_seq=4 ttl=64 time=46.9 ms
+64 bytes from 10.0.0.8: icmp_seq=5 ttl=64 time=46.3 ms
+64 bytes from 10.0.0.8: icmp_seq=6 ttl=64 time=44.9 ms
+64 bytes from 10.0.0.8: icmp_seq=7 ttl=64 time=45.5 ms
+64 bytes from 10.0.0.8: icmp_seq=9 ttl=64 time=47.2 ms
+64 bytes from 10.0.0.8: icmp_seq=10 ttl=64 time=46.3 ms
+
+--- 10.0.0.8 ping statistics ---
+10 packets transmitted, 8 received, 20% packet loss, time 9015ms
+rtt min/avg/max/mdev = 44.993/46.851/49.827/1.390 ms
+
+
+
+Testing between h6 & h1
+PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=18.1 ms
+64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=15.2 ms
+64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=13.0 ms
+64 bytes from 10.0.0.1: icmp_seq=4 ttl=64 time=14.0 ms
+64 bytes from 10.0.0.1: icmp_seq=5 ttl=64 time=14.1 ms
+64 bytes from 10.0.0.1: icmp_seq=6 ttl=64 time=13.2 ms
+64 bytes from 10.0.0.1: icmp_seq=7 ttl=64 time=13.4 ms
+64 bytes from 10.0.0.1: icmp_seq=8 ttl=64 time=13.3 ms
+64 bytes from 10.0.0.1: icmp_seq=9 ttl=64 time=13.5 ms
+64 bytes from 10.0.0.1: icmp_seq=10 ttl=64 time=13.7 ms
+
+--- 10.0.0.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 13.060/14.200/18.101/1.438 ms
+
+
+
+Testing between h6 & h2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=21.8 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=19.6 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=15.8 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=16.1 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=15.5 ms
+64 bytes from 10.0.0.2: icmp_seq=6 ttl=64 time=14.7 ms
+64 bytes from 10.0.0.2: icmp_seq=7 ttl=64 time=15.6 ms
+64 bytes from 10.0.0.2: icmp_seq=8 ttl=64 time=15.4 ms
+64 bytes from 10.0.0.2: icmp_seq=9 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.2: icmp_seq=10 ttl=64 time=15.2 ms
+
+--- 10.0.0.2 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 14.737/16.650/21.885/2.171 ms
+
+
+
+Testing between h6 & h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=11.7 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=10.1 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=8.77 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=8.89 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=9.13 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=8.71 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=9.66 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=9.10 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=9.00 ms
+
+--- 10.0.0.3 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9011ms
+rtt min/avg/max/mdev = 8.710/9.462/11.747/0.916 ms
+
+
+
+Testing between h6 & h4
+PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=33.8 ms
+64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=28.9 ms
+64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=24.9 ms
+64 bytes from 10.0.0.4: icmp_seq=4 ttl=64 time=25.8 ms
+64 bytes from 10.0.0.4: icmp_seq=5 ttl=64 time=24.0 ms
+64 bytes from 10.0.0.4: icmp_seq=6 ttl=64 time=23.3 ms
+64 bytes from 10.0.0.4: icmp_seq=7 ttl=64 time=25.6 ms
+64 bytes from 10.0.0.4: icmp_seq=8 ttl=64 time=23.8 ms
+64 bytes from 10.0.0.4: icmp_seq=9 ttl=64 time=26.0 ms
+64 bytes from 10.0.0.4: icmp_seq=10 ttl=64 time=25.8 ms
+
+--- 10.0.0.4 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+rtt min/avg/max/mdev = 23.326/26.238/33.889/2.949 ms
+
+
+
+Testing between h6 & h5
+PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
+64 bytes from 10.0.0.5: icmp_seq=1 ttl=64 time=32.4 ms
+64 bytes from 10.0.0.5: icmp_seq=2 ttl=64 time=25.8 ms
+64 bytes from 10.0.0.5: icmp_seq=3 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.5: icmp_seq=4 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.5: icmp_seq=5 ttl=64 time=24.4 ms
+64 bytes from 10.0.0.5: icmp_seq=6 ttl=64 time=24.2 ms
+64 bytes from 10.0.0.5: icmp_seq=7 ttl=64 time=26.0 ms
+64 bytes from 10.0.0.5: icmp_seq=8 ttl=64 time=24.8 ms
+64 bytes from 10.0.0.5: icmp_seq=9 ttl=64 time=23.8 ms
+
+--- 10.0.0.5 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9012ms
+rtt min/avg/max/mdev = 23.838/25.842/32.451/2.448 ms
+
+
+
+Testing between h6 & h7
+PING 10.0.0.7 (10.0.0.7) 56(84) bytes of data.
+64 bytes from 10.0.0.7: icmp_seq=1 ttl=64 time=47.2 ms
+64 bytes from 10.0.0.7: icmp_seq=2 ttl=64 time=21.1 ms
+64 bytes from 10.0.0.7: icmp_seq=3 ttl=64 time=21.0 ms
+64 bytes from 10.0.0.7: icmp_seq=4 ttl=64 time=21.7 ms
+64 bytes from 10.0.0.7: icmp_seq=5 ttl=64 time=21.0 ms
+64 bytes from 10.0.0.7: icmp_seq=6 ttl=64 time=21.6 ms
+64 bytes from 10.0.0.7: icmp_seq=7 ttl=64 time=20.7 ms
+64 bytes from 10.0.0.7: icmp_seq=9 ttl=64 time=21.9 ms
+64 bytes from 10.0.0.7: icmp_seq=10 ttl=64 time=21.6 ms
+
+--- 10.0.0.7 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9020ms
+rtt min/avg/max/mdev = 20.774/24.254/47.295/8.155 ms
+
+
+
+Testing between h6 & h8
+PING 10.0.0.8 (10.0.0.8) 56(84) bytes of data.
+64 bytes from 10.0.0.8: icmp_seq=1 ttl=64 time=46.9 ms
+64 bytes from 10.0.0.8: icmp_seq=2 ttl=64 time=21.3 ms
+64 bytes from 10.0.0.8: icmp_seq=3 ttl=64 time=22.1 ms
+64 bytes from 10.0.0.8: icmp_seq=4 ttl=64 time=20.9 ms
+64 bytes from 10.0.0.8: icmp_seq=5 ttl=64 time=22.1 ms
+64 bytes from 10.0.0.8: icmp_seq=6 ttl=64 time=21.5 ms
+64 bytes from 10.0.0.8: icmp_seq=7 ttl=64 time=21.2 ms
+64 bytes from 10.0.0.8: icmp_seq=8 ttl=64 time=21.4 ms
+64 bytes from 10.0.0.8: icmp_seq=9 ttl=64 time=21.1 ms
+64 bytes from 10.0.0.8: icmp_seq=10 ttl=64 time=21.4 ms
+
+--- 10.0.0.8 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 20.948/24.044/46.957/7.648 ms
+
+
+
+Testing between h7 & h1
+PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=40.6 ms
+64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=37.5 ms
+64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=35.6 ms
+64 bytes from 10.0.0.1: icmp_seq=4 ttl=64 time=35.6 ms
+64 bytes from 10.0.0.1: icmp_seq=5 ttl=64 time=34.5 ms
+64 bytes from 10.0.0.1: icmp_seq=6 ttl=64 time=34.1 ms
+64 bytes from 10.0.0.1: icmp_seq=7 ttl=64 time=35.0 ms
+64 bytes from 10.0.0.1: icmp_seq=8 ttl=64 time=34.8 ms
+64 bytes from 10.0.0.1: icmp_seq=9 ttl=64 time=33.9 ms
+64 bytes from 10.0.0.1: icmp_seq=10 ttl=64 time=34.2 ms
+
+--- 10.0.0.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 33.914/35.625/40.687/1.982 ms
+
+
+
+Testing between h7 & h2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=41.4 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=36.5 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=37.9 ms
+64 bytes from 10.0.0.2: icmp_seq=6 ttl=64 time=37.3 ms
+64 bytes from 10.0.0.2: icmp_seq=7 ttl=64 time=37.4 ms
+64 bytes from 10.0.0.2: icmp_seq=8 ttl=64 time=37.4 ms
+64 bytes from 10.0.0.2: icmp_seq=9 ttl=64 time=37.3 ms
+64 bytes from 10.0.0.2: icmp_seq=10 ttl=64 time=38.2 ms
+
+--- 10.0.0.2 ping statistics ---
+10 packets transmitted, 8 received, 20% packet loss, time 9024ms
+rtt min/avg/max/mdev = 36.504/37.971/41.412/1.401 ms
+
+
+
+Testing between h7 & h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=32.5 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=32.3 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=30.7 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=29.5 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=29.5 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=29.1 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=28.9 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=29.3 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=29.6 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=29.8 ms
+
+--- 10.0.0.3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+rtt min/avg/max/mdev = 28.968/30.158/32.584/1.261 ms
+
+
+
+Testing between h7 & h4
+PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=51.9 ms
+64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=50.1 ms
+64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=45.9 ms
+64 bytes from 10.0.0.4: icmp_seq=4 ttl=64 time=46.1 ms
+64 bytes from 10.0.0.4: icmp_seq=5 ttl=64 time=47.2 ms
+64 bytes from 10.0.0.4: icmp_seq=6 ttl=64 time=46.2 ms
+64 bytes from 10.0.0.4: icmp_seq=7 ttl=64 time=46.0 ms
+64 bytes from 10.0.0.4: icmp_seq=8 ttl=64 time=45.3 ms
+64 bytes from 10.0.0.4: icmp_seq=9 ttl=64 time=44.5 ms
+
+--- 10.0.0.4 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9010ms
+rtt min/avg/max/mdev = 44.528/47.074/51.906/2.268 ms
+
+
+
+Testing between h7 & h5
+PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
+64 bytes from 10.0.0.5: icmp_seq=2 ttl=64 time=53.3 ms
+64 bytes from 10.0.0.5: icmp_seq=3 ttl=64 time=48.7 ms
+64 bytes from 10.0.0.5: icmp_seq=4 ttl=64 time=45.4 ms
+64 bytes from 10.0.0.5: icmp_seq=5 ttl=64 time=46.6 ms
+64 bytes from 10.0.0.5: icmp_seq=6 ttl=64 time=44.9 ms
+64 bytes from 10.0.0.5: icmp_seq=7 ttl=64 time=45.0 ms
+64 bytes from 10.0.0.5: icmp_seq=8 ttl=64 time=45.0 ms
+64 bytes from 10.0.0.5: icmp_seq=9 ttl=64 time=44.5 ms
+64 bytes from 10.0.0.5: icmp_seq=10 ttl=64 time=46.7 ms
+
+--- 10.0.0.5 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9017ms
+rtt min/avg/max/mdev = 44.562/46.720/53.392/2.674 ms
+
+
+
+Testing between h7 & h6
+PING 10.0.0.6 (10.0.0.6) 56(84) bytes of data.
+64 bytes from 10.0.0.6: icmp_seq=1 ttl=64 time=23.8 ms
+64 bytes from 10.0.0.6: icmp_seq=2 ttl=64 time=21.4 ms
+64 bytes from 10.0.0.6: icmp_seq=3 ttl=64 time=21.7 ms
+64 bytes from 10.0.0.6: icmp_seq=4 ttl=64 time=21.4 ms
+64 bytes from 10.0.0.6: icmp_seq=5 ttl=64 time=21.3 ms
+64 bytes from 10.0.0.6: icmp_seq=6 ttl=64 time=20.7 ms
+64 bytes from 10.0.0.6: icmp_seq=7 ttl=64 time=21.0 ms
+64 bytes from 10.0.0.6: icmp_seq=8 ttl=64 time=21.1 ms
+64 bytes from 10.0.0.6: icmp_seq=9 ttl=64 time=21.5 ms
+64 bytes from 10.0.0.6: icmp_seq=10 ttl=64 time=21.2 ms
+
+--- 10.0.0.6 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 20.716/21.556/23.857/0.833 ms
+
+
+
+Testing between h7 & h8
+PING 10.0.0.8 (10.0.0.8) 56(84) bytes of data.
+64 bytes from 10.0.0.8: icmp_seq=1 ttl=64 time=2.58 ms
+64 bytes from 10.0.0.8: icmp_seq=2 ttl=64 time=0.232 ms
+64 bytes from 10.0.0.8: icmp_seq=3 ttl=64 time=0.043 ms
+64 bytes from 10.0.0.8: icmp_seq=4 ttl=64 time=0.063 ms
+64 bytes from 10.0.0.8: icmp_seq=5 ttl=64 time=0.222 ms
+64 bytes from 10.0.0.8: icmp_seq=6 ttl=64 time=0.054 ms
+64 bytes from 10.0.0.8: icmp_seq=7 ttl=64 time=0.225 ms
+64 bytes from 10.0.0.8: icmp_seq=8 ttl=64 time=0.051 ms
+64 bytes from 10.0.0.8: icmp_seq=9 ttl=64 time=0.054 ms
+64 bytes from 10.0.0.8: icmp_seq=10 ttl=64 time=0.257 ms
+
+--- 10.0.0.8 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9000ms
+rtt min/avg/max/mdev = 0.043/0.378/2.586/0.741 ms
+
+
+
+Testing between h8 & h1
+PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=41.0 ms
+64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=37.1 ms
+64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=34.6 ms
+64 bytes from 10.0.0.1: icmp_seq=4 ttl=64 time=34.6 ms
+64 bytes from 10.0.0.1: icmp_seq=6 ttl=64 time=34.8 ms
+64 bytes from 10.0.0.1: icmp_seq=7 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.1: icmp_seq=8 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.1: icmp_seq=9 ttl=64 time=35.1 ms
+64 bytes from 10.0.0.1: icmp_seq=10 ttl=64 time=34.6 ms
+
+--- 10.0.0.1 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9022ms
+rtt min/avg/max/mdev = 33.770/35.504/41.054/2.168 ms
+
+
+
+Testing between h8 & h2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=44.2 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=40.9 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=36.8 ms
+64 bytes from 10.0.0.2: icmp_seq=7 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.2: icmp_seq=8 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.2: icmp_seq=9 ttl=64 time=38.0 ms
+64 bytes from 10.0.0.2: icmp_seq=10 ttl=64 time=36.3 ms
+
+--- 10.0.0.2 ping statistics ---
+10 packets transmitted, 7 received, 30% packet loss, time 9016ms
+rtt min/avg/max/mdev = 36.333/38.827/44.250/2.596 ms
+
+
+
+Testing between h8 & h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=33.5 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=32.5 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=30.7 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=28.9 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=29.9 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=29.7 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=30.1 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=29.8 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=30.2 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=30.0 ms
+
+--- 10.0.0.3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 28.965/30.579/33.522/1.326 ms
+
+
+
+Testing between h8 & h4
+PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=54.7 ms
+64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=51.4 ms
+64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=45.5 ms
+64 bytes from 10.0.0.4: icmp_seq=4 ttl=64 time=45.0 ms
+64 bytes from 10.0.0.4: icmp_seq=5 ttl=64 time=46.8 ms
+64 bytes from 10.0.0.4: icmp_seq=6 ttl=64 time=44.6 ms
+64 bytes from 10.0.0.4: icmp_seq=7 ttl=64 time=46.4 ms
+64 bytes from 10.0.0.4: icmp_seq=9 ttl=64 time=46.9 ms
+64 bytes from 10.0.0.4: icmp_seq=10 ttl=64 time=45.9 ms
+
+--- 10.0.0.4 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9013ms
+rtt min/avg/max/mdev = 44.660/47.505/54.716/3.177 ms
+
+
+
+Testing between h8 & h5
+PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
+64 bytes from 10.0.0.5: icmp_seq=1 ttl=64 time=54.0 ms
+64 bytes from 10.0.0.5: icmp_seq=2 ttl=64 time=47.6 ms
+64 bytes from 10.0.0.5: icmp_seq=4 ttl=64 time=47.0 ms
+64 bytes from 10.0.0.5: icmp_seq=5 ttl=64 time=46.0 ms
+64 bytes from 10.0.0.5: icmp_seq=6 ttl=64 time=44.4 ms
+64 bytes from 10.0.0.5: icmp_seq=7 ttl=64 time=46.7 ms
+64 bytes from 10.0.0.5: icmp_seq=8 ttl=64 time=44.8 ms
+64 bytes from 10.0.0.5: icmp_seq=9 ttl=64 time=46.3 ms
+64 bytes from 10.0.0.5: icmp_seq=10 ttl=64 time=46.4 ms
+
+--- 10.0.0.5 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9011ms
+rtt min/avg/max/mdev = 44.405/47.057/54.029/2.658 ms
+
+
+
+Testing between h8 & h6
+PING 10.0.0.6 (10.0.0.6) 56(84) bytes of data.
+64 bytes from 10.0.0.6: icmp_seq=1 ttl=64 time=24.3 ms
+64 bytes from 10.0.0.6: icmp_seq=2 ttl=64 time=22.6 ms
+64 bytes from 10.0.0.6: icmp_seq=3 ttl=64 time=21.7 ms
+64 bytes from 10.0.0.6: icmp_seq=4 ttl=64 time=21.1 ms
+64 bytes from 10.0.0.6: icmp_seq=5 ttl=64 time=21.1 ms
+64 bytes from 10.0.0.6: icmp_seq=6 ttl=64 time=20.2 ms
+64 bytes from 10.0.0.6: icmp_seq=8 ttl=64 time=21.0 ms
+64 bytes from 10.0.0.6: icmp_seq=9 ttl=64 time=21.4 ms
+64 bytes from 10.0.0.6: icmp_seq=10 ttl=64 time=20.9 ms
+
+--- 10.0.0.6 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9015ms
+rtt min/avg/max/mdev = 20.209/21.645/24.364/1.139 ms
+
+
+
+Testing between h8 & h7
+PING 10.0.0.7 (10.0.0.7) 56(84) bytes of data.
+64 bytes from 10.0.0.7: icmp_seq=1 ttl=64 time=1.63 ms
+64 bytes from 10.0.0.7: icmp_seq=2 ttl=64 time=0.853 ms
+64 bytes from 10.0.0.7: icmp_seq=3 ttl=64 time=0.232 ms
+64 bytes from 10.0.0.7: icmp_seq=4 ttl=64 time=0.052 ms
+64 bytes from 10.0.0.7: icmp_seq=5 ttl=64 time=0.131 ms
+64 bytes from 10.0.0.7: icmp_seq=6 ttl=64 time=0.055 ms
+64 bytes from 10.0.0.7: icmp_seq=7 ttl=64 time=0.228 ms
+64 bytes from 10.0.0.7: icmp_seq=8 ttl=64 time=0.052 ms
+64 bytes from 10.0.0.7: icmp_seq=9 ttl=64 time=0.229 ms
+64 bytes from 10.0.0.7: icmp_seq=10 ttl=64 time=0.050 ms
+
+--- 10.0.0.7 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9002ms
+rtt min/avg/max/mdev = 0.050/0.351/1.635/0.485 ms
+
+
+
+
+
+Measuring TCP Bandwidth between each pair of hosts
+
+
+
+Done running iperf on server h1, starting client now
+
+
+Testing between h1 & h2
+Now testing bandwidth
+Connecting to host 10.0.0.1, port 5201
+[  4] local 10.0.0.2 port 42610 connected to 10.0.0.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.60 MBytes  13.4 Mbits/sec   27   14.1 KBytes       
+[  4]   1.00-2.00   sec  1.06 MBytes  8.92 Mbits/sec   29   8.48 KBytes       
+[  4]   2.00-3.00   sec  1.24 MBytes  10.4 Mbits/sec   36   9.90 KBytes       
+[  4]   3.00-4.00   sec  1.06 MBytes  8.92 Mbits/sec   17   12.7 KBytes       
+[  4]   4.00-5.00   sec   922 KBytes  7.55 Mbits/sec   27   8.48 KBytes       
+[  4]   5.00-6.00   sec  1.06 MBytes  8.89 Mbits/sec   20   17.0 KBytes       
+[  4]   6.00-7.00   sec  1.24 MBytes  10.4 Mbits/sec   17   12.7 KBytes       
+[  4]   7.00-8.00   sec  1.06 MBytes  8.90 Mbits/sec   29   7.07 KBytes       
+[  4]   8.00-9.00   sec  1.24 MBytes  10.4 Mbits/sec   12   15.6 KBytes       
+[  4]   9.00-10.00  sec  1.06 MBytes  8.90 Mbits/sec   34   5.66 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  11.5 MBytes  9.67 Mbits/sec  248             sender
+[  4]   0.00-10.00  sec  11.1 MBytes  9.35 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h1 & h3
+Now testing bandwidth
+Connecting to host 10.0.0.1, port 5201
+[  4] local 10.0.0.3 port 56510 connected to 10.0.0.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.87 MBytes  15.7 Mbits/sec   22   14.1 KBytes       
+[  4]   1.00-2.00   sec  1.54 MBytes  12.9 Mbits/sec   32   9.90 KBytes       
+[  4]   2.00-3.00   sec  1.72 MBytes  14.5 Mbits/sec   15   15.6 KBytes       
+[  4]   3.00-4.00   sec  1.65 MBytes  13.9 Mbits/sec   27   12.7 KBytes       
+[  4]   4.00-5.00   sec  1.65 MBytes  13.8 Mbits/sec   27   17.0 KBytes       
+[  4]   5.00-6.00   sec  1.24 MBytes  10.4 Mbits/sec   35   8.48 KBytes       
+[  4]   6.00-7.00   sec  1.53 MBytes  12.8 Mbits/sec   23   18.4 KBytes       
+[  4]   7.00-8.00   sec  1.63 MBytes  13.7 Mbits/sec   28   7.07 KBytes       
+[  4]   8.00-9.00   sec  1.69 MBytes  14.2 Mbits/sec   16   9.90 KBytes       
+[  4]   9.00-10.00  sec  1.64 MBytes  13.7 Mbits/sec   22   14.1 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  16.2 MBytes  13.6 Mbits/sec  247             sender
+[  4]   0.00-10.00  sec  16.0 MBytes  13.4 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h1 & h4
+Now testing bandwidth
+Connecting to host 10.0.0.1, port 5201
+[  4] local 10.0.0.4 port 51228 connected to 10.0.0.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   795 KBytes  6.51 Mbits/sec   24   9.90 KBytes       
+[  4]   1.00-2.00   sec   667 KBytes  5.47 Mbits/sec   15   8.48 KBytes       
+[  4]   2.00-3.00   sec   594 KBytes  4.87 Mbits/sec   22   8.48 KBytes       
+[  4]   3.00-4.00   sec   611 KBytes  5.00 Mbits/sec   22   7.07 KBytes       
+[  4]   4.00-5.00   sec   591 KBytes  4.84 Mbits/sec   22   7.07 KBytes       
+[  4]   5.00-6.00   sec   532 KBytes  4.36 Mbits/sec   19   8.48 KBytes       
+[  4]   6.00-7.00   sec   617 KBytes  5.05 Mbits/sec   19   9.90 KBytes       
+[  4]   7.00-8.00   sec   376 KBytes  3.08 Mbits/sec   14   5.66 KBytes       
+[  4]   8.00-9.00   sec   721 KBytes  5.91 Mbits/sec   14   9.90 KBytes       
+[  4]   9.00-10.00  sec   667 KBytes  5.47 Mbits/sec   17   5.66 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  6.03 MBytes  5.06 Mbits/sec  188             sender
+[  4]   0.00-10.00  sec  5.97 MBytes  5.01 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h1 & h5
+Now testing bandwidth
+Connecting to host 10.0.0.1, port 5201
+[  4] local 10.0.0.5 port 33743 connected to 10.0.0.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.02 MBytes  8.55 Mbits/sec   23   8.48 KBytes       
+[  4]   1.00-2.00   sec   549 KBytes  4.49 Mbits/sec   15   8.48 KBytes       
+[  4]   2.00-3.00   sec   727 KBytes  5.95 Mbits/sec   14   11.3 KBytes       
+[  4]   3.00-4.00   sec   882 KBytes  7.23 Mbits/sec   12   15.6 KBytes       
+[  4]   4.00-5.00   sec   634 KBytes  5.19 Mbits/sec   18   5.66 KBytes       
+[  4]   5.00-6.00   sec   546 KBytes  4.47 Mbits/sec   22   11.3 KBytes       
+[  4]   6.00-7.00   sec   173 KBytes  1.41 Mbits/sec   11   8.48 KBytes       
+[  4]   7.00-8.00   sec   882 KBytes  7.23 Mbits/sec   12   9.90 KBytes       
+[  4]   8.00-9.00   sec   863 KBytes  7.07 Mbits/sec   16   12.7 KBytes       
+[  4]   9.00-10.00  sec   732 KBytes  6.00 Mbits/sec   26   8.48 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  6.87 MBytes  5.76 Mbits/sec  169             sender
+[  4]   0.00-10.00  sec  6.81 MBytes  5.71 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h1 & h6
+Now testing bandwidth
+Connecting to host 10.0.0.1, port 5201
+[  4] local 10.0.0.6 port 54385 connected to 10.0.0.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.33 MBytes  11.2 Mbits/sec   22   11.3 KBytes       
+[  4]   1.00-2.00   sec  1021 KBytes  8.36 Mbits/sec   12   14.1 KBytes       
+[  4]   2.00-3.00   sec   803 KBytes  6.58 Mbits/sec   13   8.48 KBytes       
+[  4]   3.00-4.00   sec   571 KBytes  4.68 Mbits/sec   12   12.7 KBytes       
+[  4]   4.00-5.00   sec   792 KBytes  6.49 Mbits/sec   14   14.1 KBytes       
+[  4]   5.00-6.00   sec   696 KBytes  5.70 Mbits/sec   17   7.07 KBytes       
+[  4]   6.00-7.00   sec   455 KBytes  3.73 Mbits/sec   13   9.90 KBytes       
+[  4]   7.00-8.00   sec   919 KBytes  7.53 Mbits/sec   14   8.48 KBytes       
+[  4]   8.00-9.00   sec   452 KBytes  3.71 Mbits/sec   15   7.07 KBytes       
+[  4]   9.00-10.00  sec   800 KBytes  6.56 Mbits/sec    7   19.8 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  7.69 MBytes  6.45 Mbits/sec  139             sender
+[  4]   0.00-10.00  sec  7.45 MBytes  6.25 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h1 & h7
+Now testing bandwidth
+Connecting to host 10.0.0.1, port 5201
+[  4] local 10.0.0.7 port 41484 connected to 10.0.0.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   778 KBytes  6.37 Mbits/sec   14   12.7 KBytes       
+[  4]   1.00-2.00   sec   272 KBytes  2.22 Mbits/sec    6   9.90 KBytes       
+[  4]   2.00-3.00   sec   274 KBytes  2.25 Mbits/sec    6   8.48 KBytes       
+[  4]   3.00-4.00   sec  90.5 KBytes   741 Kbits/sec    6   1.41 KBytes       
+[  4]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec    5   4.24 KBytes       
+[  4]   5.00-6.00   sec   184 KBytes  1.51 Mbits/sec    8   5.66 KBytes       
+[  4]   6.00-7.00   sec   184 KBytes  1.51 Mbits/sec    3   11.3 KBytes       
+[  4]   7.00-8.00   sec   181 KBytes  1.48 Mbits/sec    7   8.48 KBytes       
+[  4]   8.00-9.00   sec  90.5 KBytes   741 Kbits/sec    7   5.66 KBytes       
+[  4]   9.00-10.00  sec  93.3 KBytes   765 Kbits/sec    6   5.66 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  2.10 MBytes  1.76 Mbits/sec   68             sender
+[  4]   0.00-10.00  sec  1.88 MBytes  1.58 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h1 & h8
+Now testing bandwidth
+Connecting to host 10.0.0.1, port 5201
+[  4] local 10.0.0.8 port 40014 connected to 10.0.0.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   484 KBytes  3.96 Mbits/sec   13   12.7 KBytes       
+[  4]   1.00-2.00   sec   164 KBytes  1.34 Mbits/sec    8   7.07 KBytes       
+[  4]   2.00-3.00   sec   198 KBytes  1.62 Mbits/sec    4   9.90 KBytes       
+[  4]   3.00-4.00   sec   240 KBytes  1.97 Mbits/sec    6   8.48 KBytes       
+[  4]   4.00-5.00   sec   119 KBytes   973 Kbits/sec    9   7.07 KBytes       
+[  4]   5.00-6.00   sec   119 KBytes   973 Kbits/sec    5   4.24 KBytes       
+[  4]   6.00-7.00   sec   170 KBytes  1.39 Mbits/sec    6   5.66 KBytes       
+[  4]   7.00-8.00   sec   122 KBytes   996 Kbits/sec    5   7.07 KBytes       
+[  4]   8.00-9.00   sec   198 KBytes  1.62 Mbits/sec    6   11.3 KBytes       
+[  4]   9.00-10.00  sec   209 KBytes  1.71 Mbits/sec    9   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.97 MBytes  1.66 Mbits/sec   71             sender
+[  4]   0.00-10.00  sec  1.90 MBytes  1.60 Mbits/sec                  receiver
+
+iperf Done.
+
+Shutting down the iperf server
+[1] 4544
+
+Done running iperf on server h2, starting client now
+
+
+Testing between h2 & h1
+Now testing bandwidth
+iperf3: error - unable to connect to server: Connection refused
+
+
+
+Testing between h2 & h3
+Now testing bandwidth
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.3 port 44487 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   690 KBytes  5.65 Mbits/sec   29   9.90 KBytes       
+[  4]   1.00-2.00   sec   755 KBytes  6.18 Mbits/sec   24   2.83 KBytes       
+[  4]   2.00-3.00   sec   916 KBytes  7.51 Mbits/sec   25   8.48 KBytes       
+[  4]   3.00-4.00   sec   837 KBytes  6.86 Mbits/sec   31   5.66 KBytes       
+[  4]   4.00-5.00   sec   933 KBytes  7.65 Mbits/sec   29   8.48 KBytes       
+[  4]   5.00-6.00   sec   546 KBytes  4.47 Mbits/sec   20   8.48 KBytes       
+[  4]   6.00-7.00   sec   469 KBytes  3.85 Mbits/sec   34   2.83 KBytes       
+[  4]   7.00-8.00   sec   447 KBytes  3.66 Mbits/sec   15   7.07 KBytes       
+[  4]   8.00-9.00   sec   444 KBytes  3.64 Mbits/sec   21   5.66 KBytes       
+[  4]   9.00-10.00  sec   187 KBytes  1.53 Mbits/sec   11   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  6.08 MBytes  5.10 Mbits/sec  239             sender
+[  4]   0.00-10.00  sec  6.01 MBytes  5.04 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h2 & h4
+Now testing bandwidth
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.4 port 60232 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  2.30 MBytes  19.3 Mbits/sec   15   12.7 KBytes       
+[  4]   1.00-2.00   sec  1.58 MBytes  13.2 Mbits/sec   12   17.0 KBytes       
+[  4]   2.00-3.00   sec  1.70 MBytes  14.3 Mbits/sec   16   17.0 KBytes       
+[  4]   3.00-4.00   sec  1.71 MBytes  14.4 Mbits/sec   14   9.90 KBytes       
+[  4]   4.00-5.00   sec  1.70 MBytes  14.3 Mbits/sec   10   17.0 KBytes       
+[  4]   5.00-6.00   sec  1.47 MBytes  12.3 Mbits/sec   16   18.4 KBytes       
+[  4]   6.00-7.00   sec  1.85 MBytes  15.5 Mbits/sec   16   12.7 KBytes       
+[  4]   7.00-8.00   sec  1.78 MBytes  14.9 Mbits/sec    8   25.5 KBytes       
+[  4]   8.00-9.00   sec  2.11 MBytes  17.7 Mbits/sec   13   18.4 KBytes       
+[  4]   9.00-10.00  sec  2.02 MBytes  17.0 Mbits/sec   18   15.6 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  18.2 MBytes  15.3 Mbits/sec  138             sender
+[  4]   0.00-10.00  sec  18.1 MBytes  15.2 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h2 & h5
+Now testing bandwidth
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.5 port 35162 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.85 MBytes  15.5 Mbits/sec   21   11.3 KBytes       
+[  4]   1.00-2.00   sec  2.16 MBytes  18.1 Mbits/sec    7   25.5 KBytes       
+[  4]   2.00-3.00   sec  1.59 MBytes  13.3 Mbits/sec   16   9.90 KBytes       
+[  4]   3.00-4.00   sec  1.05 MBytes  8.78 Mbits/sec   14   17.0 KBytes       
+[  4]   4.00-5.00   sec  1.54 MBytes  12.9 Mbits/sec   15   17.0 KBytes       
+[  4]   5.00-6.00   sec  2.02 MBytes  16.9 Mbits/sec   11   18.4 KBytes       
+[  4]   6.00-7.00   sec  1.73 MBytes  14.5 Mbits/sec   13   12.7 KBytes       
+[  4]   7.00-8.00   sec  1.74 MBytes  14.6 Mbits/sec   13   18.4 KBytes       
+[  4]   8.00-9.00   sec  2.17 MBytes  18.2 Mbits/sec    8   24.0 KBytes       
+[  4]   9.00-10.00  sec  1.77 MBytes  14.8 Mbits/sec   17   12.7 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  17.6 MBytes  14.8 Mbits/sec  135             sender
+[  4]   0.00-10.00  sec  17.4 MBytes  14.6 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h2 & h6
+Now testing bandwidth
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.6 port 58841 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.01 MBytes  8.43 Mbits/sec   28   7.07 KBytes       
+[  4]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec   10   2.83 KBytes       
+[  4]   2.00-3.00   sec   263 KBytes  2.16 Mbits/sec    9   8.48 KBytes       
+[  4]   3.00-4.00   sec   139 KBytes  1.13 Mbits/sec    8   7.07 KBytes       
+[  4]   4.00-5.00   sec   260 KBytes  2.13 Mbits/sec   10   5.66 KBytes       
+[  4]   5.00-6.00   sec   263 KBytes  2.15 Mbits/sec   12   2.83 KBytes       
+[  4]   6.00-7.00   sec   260 KBytes  2.13 Mbits/sec   10   7.07 KBytes       
+[  4]   7.00-8.00   sec   130 KBytes  1.07 Mbits/sec    9   5.66 KBytes       
+[  4]   8.00-9.00   sec   130 KBytes  1.07 Mbits/sec    9   7.07 KBytes       
+[  4]   9.00-10.00  sec   266 KBytes  2.18 Mbits/sec   18   8.48 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  2.68 MBytes  2.24 Mbits/sec  123             sender
+[  4]   0.00-10.00  sec  2.43 MBytes  2.04 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h2 & h7
+Now testing bandwidth
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.7 port 33698 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   714 KBytes  5.85 Mbits/sec   32   9.90 KBytes       
+[  4]   1.00-2.00   sec  84.8 KBytes   694 Kbits/sec   13   4.24 KBytes       
+[  4]   2.00-3.00   sec   170 KBytes  1.39 Mbits/sec    6   7.07 KBytes       
+[  4]   3.00-4.00   sec   175 KBytes  1.44 Mbits/sec    9   5.66 KBytes       
+[  4]   4.00-5.00   sec  87.7 KBytes   718 Kbits/sec    6   7.07 KBytes       
+[  4]   5.00-6.00   sec   170 KBytes  1.39 Mbits/sec    8   8.48 KBytes       
+[  4]   6.00-7.00   sec   170 KBytes  1.39 Mbits/sec    5   7.07 KBytes       
+[  4]   7.00-8.00   sec  84.8 KBytes   695 Kbits/sec    8   2.83 KBytes       
+[  4]   8.00-9.00   sec   170 KBytes  1.39 Mbits/sec    5   9.90 KBytes       
+[  4]   9.00-10.00  sec  84.8 KBytes   695 Kbits/sec    7   2.83 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.87 MBytes  1.56 Mbits/sec   99             sender
+[  4]   0.00-10.00  sec  1.68 MBytes  1.40 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h2 & h8
+Now testing bandwidth
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.8 port 57006 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   313 KBytes  2.56 Mbits/sec   18   7.07 KBytes       
+[  4]   1.00-2.00   sec  42.4 KBytes   347 Kbits/sec    7   4.24 KBytes       
+[  4]   2.00-3.00   sec   178 KBytes  1.46 Mbits/sec    7   5.66 KBytes       
+[  4]   3.00-4.00   sec   127 KBytes  1.04 Mbits/sec    6   8.48 KBytes       
+[  4]   4.00-5.00   sec  87.7 KBytes   718 Kbits/sec    8   2.83 KBytes       
+[  4]   5.00-6.00   sec  90.5 KBytes   742 Kbits/sec    6   2.83 KBytes       
+[  4]   6.00-7.00   sec  0.00 Bytes  0.00 bits/sec    4   1.41 KBytes       
+[  4]   7.00-8.00   sec  48.1 KBytes   394 Kbits/sec    6   5.66 KBytes       
+[  4]   8.00-9.00   sec  84.8 KBytes   696 Kbits/sec    6   1.41 KBytes       
+[  4]   9.00-10.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   971 KBytes   796 Kbits/sec   69             sender
+[  4]   0.00-10.00  sec   884 KBytes   724 Kbits/sec                  receiver
+
+iperf Done.
+
+Shutting down the iperf server
+
+Done running iperf on server h3, starting client now
+
+
+Testing between h3 & h1
+Now testing bandwidth
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Connecting to host 10.0.0.3, port 5201
+[  4] local 10.0.0.1 port 58355 connected to 10.0.0.3 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  2.32 MBytes  19.5 Mbits/sec   20   26.9 KBytes       
+[  4]   1.00-2.00   sec  1.67 MBytes  14.0 Mbits/sec   25   9.90 KBytes       
+[  4]   2.00-3.00   sec  1.67 MBytes  14.0 Mbits/sec   26   8.48 KBytes       
+[  4]   3.00-4.00   sec  1.68 MBytes  14.1 Mbits/sec   30   12.7 KBytes       
+[  4]   4.00-5.00   sec  1.67 MBytes  14.0 Mbits/sec   18   14.1 KBytes       
+[  4]   5.00-6.00   sec  1.69 MBytes  14.2 Mbits/sec   33   9.90 KBytes       
+[  4]   6.00-7.00   sec  1.68 MBytes  14.1 Mbits/sec   27   11.3 KBytes       
+[  4]   7.00-8.00   sec  1.69 MBytes  14.2 Mbits/sec   24   4.24 KBytes       
+[  4]   8.00-9.00   sec  1.39 MBytes  11.7 Mbits/sec   28   15.6 KBytes       
+[  4]   9.00-10.00  sec  1.68 MBytes  14.1 Mbits/sec   24   12.7 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  17.2 MBytes  14.4 Mbits/sec  255             sender
+[  4]   0.00-10.00  sec  16.4 MBytes  13.8 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h3 & h2
+Now testing bandwidth
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Connecting to host 10.0.0.3, port 5201
+[  4] local 10.0.0.2 port 43831 connected to 10.0.0.3 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   814 KBytes  6.66 Mbits/sec   26   7.07 KBytes       
+[  4]   1.00-2.00   sec   433 KBytes  3.55 Mbits/sec   18   7.07 KBytes       
+[  4]   2.00-3.00   sec   600 KBytes  4.91 Mbits/sec   22   7.07 KBytes       
+[  4]   3.00-4.00   sec   577 KBytes  4.73 Mbits/sec   26   7.07 KBytes       
+[  4]   4.00-5.00   sec   631 KBytes  5.17 Mbits/sec   25   5.66 KBytes       
+[  4]   5.00-6.00   sec   549 KBytes  4.49 Mbits/sec   17   1.41 KBytes       
+[  4]   6.00-7.00   sec   365 KBytes  2.99 Mbits/sec   15   7.07 KBytes       
+[  4]   7.00-8.00   sec   634 KBytes  5.19 Mbits/sec   17   9.90 KBytes       
+[  4]   8.00-9.00   sec   631 KBytes  5.17 Mbits/sec   33   4.24 KBytes       
+[  4]   9.00-10.00  sec   568 KBytes  4.65 Mbits/sec   18   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  5.66 MBytes  4.75 Mbits/sec  217             sender
+[  4]   0.00-10.00  sec  5.58 MBytes  4.68 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h3 & h4
+Now testing bandwidth
+Connecting to host 10.0.0.3, port 5201
+[  4] local 10.0.0.4 port 54449 connected to 10.0.0.3 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   283 KBytes  2.32 Mbits/sec   17   7.07 KBytes       
+[  4]   1.00-2.00   sec   260 KBytes  2.13 Mbits/sec   13   5.66 KBytes       
+[  4]   2.00-3.00   sec   311 KBytes  2.55 Mbits/sec   12   7.07 KBytes       
+[  4]   3.00-4.00   sec   413 KBytes  3.38 Mbits/sec   12   7.07 KBytes       
+[  4]   4.00-5.00   sec  79.2 KBytes   648 Kbits/sec    6   4.24 KBytes       
+[  4]   5.00-6.00   sec   370 KBytes  3.04 Mbits/sec   13   7.07 KBytes       
+[  4]   6.00-7.00   sec   156 KBytes  1.27 Mbits/sec    9   7.07 KBytes       
+[  4]   7.00-8.00   sec   339 KBytes  2.78 Mbits/sec   17   4.24 KBytes       
+[  4]   8.00-9.00   sec   263 KBytes  2.15 Mbits/sec   12   7.07 KBytes       
+[  4]   9.00-10.00  sec  28.3 KBytes   232 Kbits/sec    9   4.24 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  2.44 MBytes  2.05 Mbits/sec  120             sender
+[  4]   0.00-10.00  sec  2.39 MBytes  2.00 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h3 & h5
+Now testing bandwidth
+Connecting to host 10.0.0.3, port 5201
+[  4] local 10.0.0.5 port 59873 connected to 10.0.0.3 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   792 KBytes  6.48 Mbits/sec   23   8.48 KBytes       
+[  4]   1.00-2.00   sec   455 KBytes  3.73 Mbits/sec   14   7.07 KBytes       
+[  4]   2.00-3.00   sec   359 KBytes  2.94 Mbits/sec   11   5.66 KBytes       
+[  4]   3.00-4.00   sec   181 KBytes  1.48 Mbits/sec   15   7.07 KBytes       
+[  4]   4.00-5.00   sec   272 KBytes  2.22 Mbits/sec   13   8.48 KBytes       
+[  4]   5.00-6.00   sec   274 KBytes  2.25 Mbits/sec   13   4.24 KBytes       
+[  4]   6.00-7.00   sec   272 KBytes  2.22 Mbits/sec   12   5.66 KBytes       
+[  4]   7.00-8.00   sec  90.5 KBytes   741 Kbits/sec   10   5.66 KBytes       
+[  4]   8.00-9.00   sec  93.3 KBytes   765 Kbits/sec    8   2.83 KBytes       
+[  4]   9.00-10.00  sec   181 KBytes  1.48 Mbits/sec    9   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  2.90 MBytes  2.43 Mbits/sec  128             sender
+[  4]   0.00-10.00  sec  2.73 MBytes  2.29 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h3 & h6
+Now testing bandwidth
+Connecting to host 10.0.0.3, port 5201
+[  4] local 10.0.0.6 port 43005 connected to 10.0.0.3 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.86 MBytes  15.6 Mbits/sec   20   19.8 KBytes       
+[  4]   1.00-2.00   sec  1.78 MBytes  14.9 Mbits/sec   11   21.2 KBytes       
+[  4]   2.00-3.00   sec  1.65 MBytes  13.9 Mbits/sec   14   19.8 KBytes       
+[  4]   3.00-4.00   sec  1.47 MBytes  12.3 Mbits/sec   18   18.4 KBytes       
+[  4]   4.00-5.00   sec  2.18 MBytes  18.2 Mbits/sec   13   15.6 KBytes       
+[  4]   5.00-6.00   sec  1.94 MBytes  16.3 Mbits/sec   10   19.8 KBytes       
+[  4]   6.00-7.00   sec  1.80 MBytes  15.1 Mbits/sec   12   22.6 KBytes       
+[  4]   7.00-8.00   sec  2.25 MBytes  18.8 Mbits/sec   10   18.4 KBytes       
+[  4]   8.00-9.00   sec  1.70 MBytes  14.2 Mbits/sec   15   14.1 KBytes       
+[  4]   9.00-10.00  sec  1.62 MBytes  13.6 Mbits/sec   14   14.1 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  18.2 MBytes  15.3 Mbits/sec  137             sender
+[  4]   0.00-10.00  sec  18.1 MBytes  15.2 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h3 & h7
+Now testing bandwidth
+Connecting to host 10.0.0.3, port 5201
+[  4] local 10.0.0.7 port 53565 connected to 10.0.0.3 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   713 KBytes  5.84 Mbits/sec   11   11.3 KBytes       
+[  4]   1.00-2.00   sec   235 KBytes  1.92 Mbits/sec    8   9.90 KBytes       
+[  4]   2.00-3.00   sec   226 KBytes  1.85 Mbits/sec    8   7.07 KBytes       
+[  4]   3.00-4.00   sec   286 KBytes  2.34 Mbits/sec    4   14.1 KBytes       
+[  4]   4.00-5.00   sec   238 KBytes  1.95 Mbits/sec    8   7.07 KBytes       
+[  4]   5.00-6.00   sec   175 KBytes  1.44 Mbits/sec    8   7.07 KBytes       
+[  4]   6.00-7.00   sec   229 KBytes  1.88 Mbits/sec    6   8.48 KBytes       
+[  4]   7.00-8.00   sec   291 KBytes  2.39 Mbits/sec    5   7.07 KBytes       
+[  4]   8.00-9.00   sec   229 KBytes  1.88 Mbits/sec    6   8.48 KBytes       
+[  4]   9.00-10.00  sec   116 KBytes   950 Kbits/sec    9   4.24 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  2.67 MBytes  2.24 Mbits/sec   73             sender
+[  4]   0.00-10.00  sec  2.60 MBytes  2.18 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h3 & h8
+Now testing bandwidth
+Connecting to host 10.0.0.3, port 5201
+[  4] local 10.0.0.8 port 42312 connected to 10.0.0.3 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.47 MBytes  12.3 Mbits/sec   10   19.8 KBytes       
+[  4]   1.00-2.00   sec   156 KBytes  1.27 Mbits/sec   12   7.07 KBytes       
+[  4]   2.00-3.00   sec   156 KBytes  1.28 Mbits/sec    5   9.90 KBytes       
+[  4]   3.00-4.00   sec   311 KBytes  2.55 Mbits/sec    4   11.3 KBytes       
+[  4]   4.00-5.00   sec   467 KBytes  3.82 Mbits/sec    4   12.7 KBytes       
+[  4]   5.00-6.00   sec   320 KBytes  2.62 Mbits/sec    6   11.3 KBytes       
+[  4]   6.00-7.00   sec   311 KBytes  2.55 Mbits/sec    7   12.7 KBytes       
+[  4]   7.00-8.00   sec   317 KBytes  2.59 Mbits/sec    9   5.66 KBytes       
+[  4]   8.00-9.00   sec   311 KBytes  2.55 Mbits/sec    2   14.1 KBytes       
+[  4]   9.00-10.00  sec   320 KBytes  2.62 Mbits/sec   13   5.66 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  4.07 MBytes  3.42 Mbits/sec   72             sender
+[  4]   0.00-10.00  sec  3.64 MBytes  3.05 Mbits/sec                  receiver
+
+iperf Done.
+
+Shutting down the iperf server
+
+Done running iperf on server h4, starting client now
+
+
+Testing between h4 & h1
+Now testing bandwidth
+Connecting to host 10.0.0.4, port 5201
+[  4] local 10.0.0.1 port 55591 connected to 10.0.0.4 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   959 KBytes  7.85 Mbits/sec   33   7.07 KBytes       
+[  4]   1.00-2.00   sec   458 KBytes  3.75 Mbits/sec   18   9.90 KBytes       
+[  4]   2.00-3.00   sec   365 KBytes  2.99 Mbits/sec   14   7.07 KBytes       
+[  4]   3.00-4.00   sec   540 KBytes  4.43 Mbits/sec   13   17.0 KBytes       
+[  4]   4.00-5.00   sec   724 KBytes  5.93 Mbits/sec   22   7.07 KBytes       
+[  4]   5.00-6.00   sec   184 KBytes  1.50 Mbits/sec   14   2.83 KBytes       
+[  4]   6.00-7.00   sec   455 KBytes  3.73 Mbits/sec   14   7.07 KBytes       
+[  4]   7.00-8.00   sec   634 KBytes  5.19 Mbits/sec   23   5.66 KBytes       
+[  4]   8.00-9.00   sec   543 KBytes  4.45 Mbits/sec   17   7.07 KBytes       
+[  4]   9.00-10.00  sec   636 KBytes  5.21 Mbits/sec   16   11.3 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  5.37 MBytes  4.50 Mbits/sec  184             sender
+[  4]   0.00-10.00  sec  5.19 MBytes  4.35 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h4 & h2
+Now testing bandwidth
+Connecting to host 10.0.0.4, port 5201
+[  4] local 10.0.0.2 port 38763 connected to 10.0.0.4 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.87 MBytes  15.7 Mbits/sec   16   17.0 KBytes       
+[  4]   1.00-2.00   sec  1.94 MBytes  16.2 Mbits/sec   13   21.2 KBytes       
+[  4]   2.00-3.00   sec  2.03 MBytes  17.0 Mbits/sec   12   17.0 KBytes       
+[  4]   3.00-4.00   sec  1.23 MBytes  10.3 Mbits/sec   19   9.90 KBytes       
+[  4]   4.00-5.00   sec  1.94 MBytes  16.3 Mbits/sec   11   15.6 KBytes       
+[  4]   5.00-6.00   sec  1.91 MBytes  16.0 Mbits/sec   10   19.8 KBytes       
+[  4]   6.00-7.00   sec  1.94 MBytes  16.2 Mbits/sec   12   25.5 KBytes       
+[  4]   7.00-8.00   sec  1.79 MBytes  15.0 Mbits/sec   19   8.48 KBytes       
+[  4]   8.00-9.00   sec  1.32 MBytes  11.1 Mbits/sec   13   14.1 KBytes       
+[  4]   9.00-10.00  sec  1.84 MBytes  15.5 Mbits/sec   13   14.1 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  17.8 MBytes  14.9 Mbits/sec  138             sender
+[  4]   0.00-10.00  sec  17.7 MBytes  14.8 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h4 & h3
+Now testing bandwidth
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Connecting to host 10.0.0.4, port 5201
+[  4] local 10.0.0.3 port 45027 connected to 10.0.0.4 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   489 KBytes  4.01 Mbits/sec   21   7.07 KBytes       
+[  4]   1.00-2.00   sec  56.6 KBytes   463 Kbits/sec    8   5.66 KBytes       
+[  4]   2.00-3.00   sec   334 KBytes  2.74 Mbits/sec    9   8.48 KBytes       
+[  4]   3.00-4.00   sec   260 KBytes  2.13 Mbits/sec   18   5.66 KBytes       
+[  4]   4.00-5.00   sec   277 KBytes  2.27 Mbits/sec   10   9.90 KBytes       
+[  4]   5.00-6.00   sec   102 KBytes   833 Kbits/sec    9   1.41 KBytes       
+[  4]   6.00-7.00   sec   156 KBytes  1.27 Mbits/sec   11   4.24 KBytes       
+[  4]   7.00-8.00   sec   280 KBytes  2.29 Mbits/sec    7   7.07 KBytes       
+[  4]   8.00-9.00   sec   105 KBytes   857 Kbits/sec    5   7.07 KBytes       
+[  4]   9.00-10.00  sec   283 KBytes  2.32 Mbits/sec   16   8.48 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  2.29 MBytes  1.92 Mbits/sec  114             sender
+[  4]   0.00-10.00  sec  2.24 MBytes  1.88 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h4 & h5
+Now testing bandwidth
+iperf3: error - the server is busy running a test. try again later
+
+
+
+Testing between h4 & h6
+Now testing bandwidth
+Connecting to host 10.0.0.4, port 5201
+[  4] local 10.0.0.6 port 43035 connected to 10.0.0.4 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   354 KBytes  2.90 Mbits/sec   20   5.66 KBytes       
+[  4]   1.00-2.00   sec   240 KBytes  1.97 Mbits/sec   11   2.83 KBytes       
+[  4]   2.00-3.00   sec   141 KBytes  1.16 Mbits/sec    9   4.24 KBytes       
+[  4]   3.00-4.00   sec   141 KBytes  1.16 Mbits/sec    8   7.07 KBytes       
+[  4]   4.00-5.00   sec  67.9 KBytes   556 Kbits/sec   10   5.66 KBytes       
+[  4]   5.00-6.00   sec   274 KBytes  2.25 Mbits/sec    8   8.48 KBytes       
+[  4]   6.00-7.00   sec   141 KBytes  1.16 Mbits/sec    9   7.07 KBytes       
+[  4]   7.00-8.00   sec  99.0 KBytes   810 Kbits/sec    8   5.66 KBytes       
+[  4]   8.00-9.00   sec   167 KBytes  1.37 Mbits/sec    6   8.48 KBytes       
+[  4]   9.00-10.00  sec   173 KBytes  1.41 Mbits/sec    9   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.76 MBytes  1.47 Mbits/sec   98             sender
+[  4]   0.00-10.00  sec  1.76 MBytes  1.47 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h4 & h7
+Now testing bandwidth
+Connecting to host 10.0.0.4, port 5201
+[  4] local 10.0.0.7 port 52572 connected to 10.0.0.4 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   703 KBytes  5.76 Mbits/sec   31   8.48 KBytes       
+[  4]   1.00-2.00   sec   170 KBytes  1.39 Mbits/sec    9   7.07 KBytes       
+[  4]   2.00-3.00   sec  87.7 KBytes   718 Kbits/sec    6   4.24 KBytes       
+[  4]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec    4   5.66 KBytes       
+[  4]   4.00-5.00   sec  84.8 KBytes   695 Kbits/sec    3   8.48 KBytes       
+[  4]   5.00-6.00   sec   170 KBytes  1.39 Mbits/sec   11   5.66 KBytes       
+[  4]   6.00-7.00   sec  84.8 KBytes   695 Kbits/sec    6   4.24 KBytes       
+[  4]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec    9   4.24 KBytes       
+[  4]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4]   9.00-10.00  sec   175 KBytes  1.44 Mbits/sec    2   8.48 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.44 MBytes  1.21 Mbits/sec   84             sender
+[  4]   0.00-10.00  sec  1.21 MBytes  1.01 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h4 & h8
+Now testing bandwidth
+Connecting to host 10.0.0.4, port 5201
+[  4] local 10.0.0.8 port 37564 connected to 10.0.0.4 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  96.2 KBytes   787 Kbits/sec    8   4.24 KBytes       
+[  4]   1.00-2.00   sec  59.4 KBytes   487 Kbits/sec    4   5.66 KBytes       
+[  4]   2.00-3.00   sec  53.7 KBytes   440 Kbits/sec    5   7.07 KBytes       
+[  4]   3.00-4.00   sec   136 KBytes  1.11 Mbits/sec    4   5.66 KBytes       
+[  4]   4.00-5.00   sec  76.4 KBytes   625 Kbits/sec    3   7.07 KBytes       
+[  4]   5.00-6.00   sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4]   6.00-7.00   sec  59.4 KBytes   487 Kbits/sec    6   5.66 KBytes       
+[  4]   7.00-8.00   sec  79.2 KBytes   649 Kbits/sec    5   2.83 KBytes       
+[  4]   8.00-9.00   sec  53.7 KBytes   440 Kbits/sec    4   5.66 KBytes       
+[  4]   9.00-10.00  sec   130 KBytes  1.07 Mbits/sec    4   8.48 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   744 KBytes   609 Kbits/sec   44             sender
+[  4]   0.00-10.00  sec   676 KBytes   554 Kbits/sec                  receiver
+
+iperf Done.
+
+Shutting down the iperf server
+
+Done running iperf on server h5, starting client now
+
+
+Testing between h5 & h1
+Now testing bandwidth
+Connecting to host 10.0.0.5, port 5201
+[  4] local 10.0.0.1 port 34306 connected to 10.0.0.5 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   246 KBytes  2.01 Mbits/sec   13   5.66 KBytes       
+[  4]   1.00-2.00   sec   588 KBytes  4.82 Mbits/sec   14   12.7 KBytes       
+[  4]   2.00-3.00   sec   699 KBytes  5.72 Mbits/sec   22   7.07 KBytes       
+[  4]   3.00-4.00   sec   588 KBytes  4.82 Mbits/sec   22   7.07 KBytes       
+[  4]   4.00-5.00   sec   823 KBytes  6.74 Mbits/sec   14   8.48 KBytes       
+[  4]   5.00-6.00   sec   696 KBytes  5.70 Mbits/sec   14   8.48 KBytes       
+[  4]   6.00-7.00   sec   775 KBytes  6.35 Mbits/sec   15   9.90 KBytes       
+[  4]   7.00-8.00   sec   354 KBytes  2.89 Mbits/sec   10   7.07 KBytes       
+[  4]   8.00-9.00   sec   424 KBytes  3.48 Mbits/sec   16   9.90 KBytes       
+[  4]   9.00-10.00  sec  1001 KBytes  8.20 Mbits/sec   19   8.48 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  6.05 MBytes  5.07 Mbits/sec  159             sender
+[  4]   0.00-10.00  sec  5.98 MBytes  5.02 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h5 & h2
+Now testing bandwidth
+Connecting to host 10.0.0.5, port 5201
+[  4] local 10.0.0.2 port 49157 connected to 10.0.0.5 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  2.01 MBytes  16.9 Mbits/sec   12   18.4 KBytes       
+[  4]   1.00-2.00   sec  2.16 MBytes  18.1 Mbits/sec    8   26.9 KBytes       
+[  4]   2.00-3.00   sec  2.18 MBytes  18.3 Mbits/sec   12   22.6 KBytes       
+[  4]   3.00-4.00   sec  1.42 MBytes  11.9 Mbits/sec   20   14.1 KBytes       
+[  4]   4.00-5.00   sec  1.93 MBytes  16.2 Mbits/sec   12   19.8 KBytes       
+[  4]   5.00-6.00   sec  1.86 MBytes  15.6 Mbits/sec   15   14.1 KBytes       
+[  4]   6.00-7.00   sec  2.03 MBytes  17.0 Mbits/sec   11   11.3 KBytes       
+[  4]   7.00-8.00   sec  1.32 MBytes  11.1 Mbits/sec   18   12.7 KBytes       
+[  4]   8.00-9.00   sec  1.55 MBytes  13.0 Mbits/sec   12   22.6 KBytes       
+[  4]   9.00-10.00  sec  2.26 MBytes  19.0 Mbits/sec    4   36.8 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  18.7 MBytes  15.7 Mbits/sec  124             sender
+[  4]   0.00-10.00  sec  18.6 MBytes  15.6 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h5 & h3
+Now testing bandwidth
+Connecting to host 10.0.0.5, port 5201
+[  4] local 10.0.0.3 port 53267 connected to 10.0.0.5 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   665 KBytes  5.44 Mbits/sec   25   8.48 KBytes       
+[  4]   1.00-2.00   sec   124 KBytes  1.02 Mbits/sec   13   2.83 KBytes       
+[  4]   2.00-3.00   sec   252 KBytes  2.06 Mbits/sec   14   2.83 KBytes       
+[  4]   3.00-4.00   sec   314 KBytes  2.57 Mbits/sec    9   9.90 KBytes       
+[  4]   4.00-5.00   sec   266 KBytes  2.17 Mbits/sec   15   2.83 KBytes       
+[  4]   5.00-6.00   sec   252 KBytes  2.06 Mbits/sec   11   8.48 KBytes       
+[  4]   6.00-7.00   sec   373 KBytes  3.06 Mbits/sec   17   9.90 KBytes       
+[  4]   7.00-8.00   sec   311 KBytes  2.55 Mbits/sec   18   2.83 KBytes       
+[  4]   8.00-9.00   sec  62.2 KBytes   509 Kbits/sec    9   1.41 KBytes       
+[  4]   9.00-10.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  2.56 MBytes  2.14 Mbits/sec  132             sender
+[  4]   0.00-10.00  sec  2.43 MBytes  2.04 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h5 & h4
+Now testing bandwidth
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+iperf3: error - the server is busy running a test. try again later
+
+
+
+Testing between h5 & h6
+Now testing bandwidth
+Connecting to host 10.0.0.5, port 5201
+[  4] local 10.0.0.6 port 49357 connected to 10.0.0.5 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   351 KBytes  2.87 Mbits/sec   17   5.66 KBytes       
+[  4]   1.00-2.00   sec   170 KBytes  1.39 Mbits/sec    7   1.41 KBytes       
+[  4]   2.00-3.00   sec  33.9 KBytes   278 Kbits/sec    9   2.83 KBytes       
+[  4]   3.00-4.00   sec   144 KBytes  1.18 Mbits/sec   10   7.07 KBytes       
+[  4]   4.00-5.00   sec   147 KBytes  1.20 Mbits/sec    9   5.66 KBytes       
+[  4]   5.00-6.00   sec   218 KBytes  1.78 Mbits/sec    9   5.66 KBytes       
+[  4]   6.00-7.00   sec   141 KBytes  1.16 Mbits/sec    9   5.66 KBytes       
+[  4]   7.00-8.00   sec   314 KBytes  2.57 Mbits/sec    7   2.83 KBytes       
+[  4]   8.00-9.00   sec  33.9 KBytes   278 Kbits/sec    3   1.41 KBytes       
+[  4]   9.00-10.00  sec   141 KBytes  1.16 Mbits/sec   10   4.24 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.65 MBytes  1.39 Mbits/sec   90             sender
+[  4]   0.00-10.00  sec  1.57 MBytes  1.32 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h5 & h7
+Now testing bandwidth
+Connecting to host 10.0.0.5, port 5201
+[  4] local 10.0.0.7 port 45395 connected to 10.0.0.5 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   577 KBytes  4.72 Mbits/sec   23   7.07 KBytes       
+[  4]   1.00-2.00   sec  93.3 KBytes   764 Kbits/sec    8   4.24 KBytes       
+[  4]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec    6   5.66 KBytes       
+[  4]   3.00-4.00   sec  87.7 KBytes   718 Kbits/sec    5   5.66 KBytes       
+[  4]   4.00-5.00   sec  90.5 KBytes   741 Kbits/sec    5   2.83 KBytes       
+[  4]   5.00-6.00   sec  90.5 KBytes   742 Kbits/sec    5   2.83 KBytes       
+[  4]   6.00-7.00   sec  90.5 KBytes   741 Kbits/sec    2   7.07 KBytes       
+[  4]   7.00-8.00   sec   184 KBytes  1.51 Mbits/sec    4   7.07 KBytes       
+[  4]   8.00-9.00   sec  93.3 KBytes   765 Kbits/sec    3   8.48 KBytes       
+[  4]   9.00-10.00  sec  90.5 KBytes   741 Kbits/sec    7   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.36 MBytes  1.14 Mbits/sec   68             sender
+[  4]   0.00-10.00  sec  1.14 MBytes   952 Kbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h5 & h8
+Now testing bandwidth
+Connecting to host 10.0.0.5, port 5201
+[  4] local 10.0.0.8 port 44616 connected to 10.0.0.5 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   256 KBytes  2.10 Mbits/sec   19   7.07 KBytes       
+[  4]   1.00-2.00   sec   158 KBytes  1.30 Mbits/sec    4   7.07 KBytes       
+[  4]   2.00-3.00   sec   170 KBytes  1.39 Mbits/sec    2   11.3 KBytes       
+[  4]   3.00-4.00   sec   161 KBytes  1.32 Mbits/sec    6   7.07 KBytes       
+[  4]   4.00-5.00   sec  31.1 KBytes   255 Kbits/sec    3   7.07 KBytes       
+[  4]   5.00-6.00   sec  90.5 KBytes   741 Kbits/sec    5   5.66 KBytes       
+[  4]   6.00-7.00   sec  31.1 KBytes   255 Kbits/sec    3   1.41 KBytes       
+[  4]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4]   8.00-9.00   sec  28.3 KBytes   232 Kbits/sec    2   7.07 KBytes       
+[  4]   9.00-10.00  sec   127 KBytes  1.04 Mbits/sec    5   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.03 MBytes   863 Kbits/sec   50             sender
+[  4]   0.00-10.00  sec   981 KBytes   804 Kbits/sec                  receiver
+
+iperf Done.
+
+Shutting down the iperf server
+
+Done running iperf on server h6, starting client now
+
+
+Testing between h6 & h1
+Now testing bandwidth
+Connecting to host 10.0.0.6, port 5201
+[  4] local 10.0.0.1 port 48925 connected to 10.0.0.6 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1010 KBytes  8.27 Mbits/sec   26   5.66 KBytes       
+[  4]   1.00-2.00   sec   540 KBytes  4.42 Mbits/sec   11   8.48 KBytes       
+[  4]   2.00-3.00   sec   650 KBytes  5.33 Mbits/sec   13   5.66 KBytes       
+[  4]   3.00-4.00   sec   557 KBytes  4.56 Mbits/sec   14   7.07 KBytes       
+[  4]   4.00-5.00   sec   970 KBytes  7.95 Mbits/sec    6   15.6 KBytes       
+[  4]   5.00-6.00   sec   645 KBytes  5.28 Mbits/sec   14   8.48 KBytes       
+[  4]   6.00-7.00   sec   546 KBytes  4.47 Mbits/sec   14   11.3 KBytes       
+[  4]   7.00-8.00   sec   758 KBytes  6.21 Mbits/sec   14   12.7 KBytes       
+[  4]   8.00-9.00   sec   865 KBytes  7.09 Mbits/sec   14   14.1 KBytes       
+[  4]   9.00-10.00  sec   882 KBytes  7.22 Mbits/sec   14   5.66 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  7.25 MBytes  6.08 Mbits/sec  140             sender
+[  4]   0.00-10.00  sec  6.99 MBytes  5.87 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h6 & h2
+Now testing bandwidth
+Connecting to host 10.0.0.6, port 5201
+[  4] local 10.0.0.2 port 36825 connected to 10.0.0.6 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   597 KBytes  4.88 Mbits/sec   18   7.07 KBytes       
+[  4]   1.00-2.00   sec   272 KBytes  2.23 Mbits/sec    9   9.90 KBytes       
+[  4]   2.00-3.00   sec   455 KBytes  3.73 Mbits/sec    9   11.3 KBytes       
+[  4]   3.00-4.00   sec   184 KBytes  1.50 Mbits/sec   17   2.83 KBytes       
+[  4]   4.00-5.00   sec   272 KBytes  2.23 Mbits/sec   14   5.66 KBytes       
+[  4]   5.00-6.00   sec   272 KBytes  2.22 Mbits/sec   14   7.07 KBytes       
+[  4]   6.00-7.00   sec   272 KBytes  2.22 Mbits/sec   14   7.07 KBytes       
+[  4]   7.00-8.00   sec   272 KBytes  2.22 Mbits/sec   16   4.24 KBytes       
+[  4]   8.00-9.00   sec   181 KBytes  1.48 Mbits/sec   10   5.66 KBytes       
+[  4]   9.00-10.00  sec   543 KBytes  4.45 Mbits/sec   14   9.90 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  3.24 MBytes  2.72 Mbits/sec  135             sender
+[  4]   0.00-10.00  sec  3.07 MBytes  2.57 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h6 & h3
+Now testing bandwidth
+iperf3: error - the server is busy running a test. try again later
+
+
+
+Testing between h6 & h4
+Now testing bandwidth
+Connecting to host 10.0.0.6, port 5201
+[  4] local 10.0.0.4 port 49873 connected to 10.0.0.6 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   416 KBytes  3.40 Mbits/sec   19   7.07 KBytes       
+[  4]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec    2   1.41 KBytes       
+[  4]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4]   3.00-4.00   sec  70.7 KBytes   580 Kbits/sec    8   5.66 KBytes       
+[  4]   4.00-5.00   sec   212 KBytes  1.74 Mbits/sec    7   8.48 KBytes       
+[  4]   5.00-6.00   sec   206 KBytes  1.69 Mbits/sec    8   4.24 KBytes       
+[  4]   6.00-7.00   sec   221 KBytes  1.81 Mbits/sec    7   7.07 KBytes       
+[  4]   7.00-8.00   sec   274 KBytes  2.25 Mbits/sec   11   5.66 KBytes       
+[  4]   8.00-9.00   sec  73.5 KBytes   602 Kbits/sec    6   8.48 KBytes       
+[  4]   9.00-10.00  sec   184 KBytes  1.51 Mbits/sec   12   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.62 MBytes  1.36 Mbits/sec   80             sender
+[  4]   0.00-10.00  sec  1.53 MBytes  1.29 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h6 & h5
+Now testing bandwidth
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Connecting to host 10.0.0.6, port 5201
+[  4] local 10.0.0.5 port 52249 connected to 10.0.0.6 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   283 KBytes  2.32 Mbits/sec   12   5.66 KBytes       
+[  4]   1.00-2.00   sec  82.0 KBytes   672 Kbits/sec    5   7.07 KBytes       
+[  4]   2.00-3.00   sec   255 KBytes  2.09 Mbits/sec   10   8.48 KBytes       
+[  4]   3.00-4.00   sec   116 KBytes   950 Kbits/sec   11   4.24 KBytes       
+[  4]   4.00-5.00   sec   130 KBytes  1.07 Mbits/sec    4   7.07 KBytes       
+[  4]   5.00-6.00   sec  73.5 KBytes   602 Kbits/sec    7   4.24 KBytes       
+[  4]   6.00-7.00   sec   184 KBytes  1.51 Mbits/sec    9   4.24 KBytes       
+[  4]   7.00-8.00   sec  76.4 KBytes   625 Kbits/sec    6   7.07 KBytes       
+[  4]   8.00-9.00   sec   127 KBytes  1.04 Mbits/sec   12   2.83 KBytes       
+[  4]   9.00-10.00  sec   158 KBytes  1.30 Mbits/sec    6   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.45 MBytes  1.22 Mbits/sec   82             sender
+[  4]   0.00-10.00  sec  1.41 MBytes  1.18 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h6 & h7
+Now testing bandwidth
+Connecting to host 10.0.0.6, port 5201
+[  4] local 10.0.0.7 port 60002 connected to 10.0.0.6 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   773 KBytes  6.34 Mbits/sec   12   17.0 KBytes       
+[  4]   1.00-2.00   sec   600 KBytes  4.91 Mbits/sec    7   11.3 KBytes       
+[  4]   2.00-3.00   sec   362 KBytes  2.97 Mbits/sec   13   7.07 KBytes       
+[  4]   3.00-4.00   sec   416 KBytes  3.41 Mbits/sec    4   14.1 KBytes       
+[  4]   4.00-5.00   sec   772 KBytes  6.32 Mbits/sec    4   15.6 KBytes       
+[  4]   5.00-6.00   sec   687 KBytes  5.63 Mbits/sec    9   8.48 KBytes       
+[  4]   6.00-7.00   sec   444 KBytes  3.64 Mbits/sec    7   14.1 KBytes       
+[  4]   7.00-8.00   sec   662 KBytes  5.42 Mbits/sec    4   18.4 KBytes       
+[  4]   8.00-9.00   sec   478 KBytes  3.91 Mbits/sec    9   12.7 KBytes       
+[  4]   9.00-10.00  sec   560 KBytes  4.59 Mbits/sec    8   12.7 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  5.62 MBytes  4.71 Mbits/sec   77             sender
+[  4]   0.00-10.00  sec  5.54 MBytes  4.64 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h6 & h8
+Now testing bandwidth
+Connecting to host 10.0.0.6, port 5201
+[  4] local 10.0.0.8 port 48926 connected to 10.0.0.6 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.90 MBytes  15.9 Mbits/sec   18   19.8 KBytes       
+[  4]   1.00-2.00   sec   724 KBytes  5.93 Mbits/sec    8   18.4 KBytes       
+[  4]   2.00-3.00   sec   540 KBytes  4.42 Mbits/sec   10   12.7 KBytes       
+[  4]   3.00-4.00   sec   713 KBytes  5.84 Mbits/sec    6   12.7 KBytes       
+[  4]   4.00-5.00   sec   356 KBytes  2.92 Mbits/sec    9   12.7 KBytes       
+[  4]   5.00-6.00   sec   540 KBytes  4.43 Mbits/sec    8   12.7 KBytes       
+[  4]   6.00-7.00   sec   537 KBytes  4.40 Mbits/sec   10   14.1 KBytes       
+[  4]   7.00-8.00   sec   540 KBytes  4.43 Mbits/sec    7   12.7 KBytes       
+[  4]   8.00-9.00   sec   543 KBytes  4.45 Mbits/sec    7   12.7 KBytes       
+[  4]   9.00-10.00  sec   359 KBytes  2.94 Mbits/sec    8   11.3 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  6.64 MBytes  5.57 Mbits/sec   91             sender
+[  4]   0.00-10.00  sec  6.27 MBytes  5.26 Mbits/sec                  receiver
+
+iperf Done.
+
+Shutting down the iperf server
+
+Done running iperf on server h7, starting client now
+
+
+Testing between h7 & h1
+Now testing bandwidth
+Connecting to host 10.0.0.7, port 5201
+[  4] local 10.0.0.1 port 58671 connected to 10.0.0.7 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   209 KBytes  1.71 Mbits/sec   11   5.66 KBytes       
+[  4]   1.00-2.00   sec   161 KBytes  1.32 Mbits/sec    7   2.83 KBytes       
+[  4]   2.00-3.00   sec   156 KBytes  1.27 Mbits/sec    1   11.3 KBytes       
+[  4]   3.00-4.00   sec   269 KBytes  2.20 Mbits/sec    6   9.90 KBytes       
+[  4]   4.00-5.00   sec   173 KBytes  1.41 Mbits/sec    9   7.07 KBytes       
+[  4]   5.00-6.00   sec   181 KBytes  1.48 Mbits/sec    9   5.66 KBytes       
+[  4]   6.00-7.00   sec   266 KBytes  2.18 Mbits/sec    8   5.66 KBytes       
+[  4]   7.00-8.00   sec   167 KBytes  1.37 Mbits/sec    4   8.48 KBytes       
+[  4]   8.00-9.00   sec   215 KBytes  1.76 Mbits/sec    5   7.07 KBytes       
+[  4]   9.00-10.00  sec   209 KBytes  1.71 Mbits/sec    2   8.48 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.96 MBytes  1.64 Mbits/sec   62             sender
+[  4]   0.00-10.00  sec  1.91 MBytes  1.60 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h7 & h2
+Now testing bandwidth
+Connecting to host 10.0.0.7, port 5201
+[  4] local 10.0.0.2 port 60249 connected to 10.0.0.7 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   518 KBytes  4.24 Mbits/sec   16   8.48 KBytes       
+[  4]   1.00-2.00   sec   144 KBytes  1.18 Mbits/sec    7   5.66 KBytes       
+[  4]   2.00-3.00   sec  99.0 KBytes   811 Kbits/sec    6   5.66 KBytes       
+[  4]   3.00-4.00   sec  48.1 KBytes   393 Kbits/sec    7   2.83 KBytes       
+[  4]   4.00-5.00   sec  96.2 KBytes   789 Kbits/sec    3   8.48 KBytes       
+[  4]   5.00-6.00   sec  96.2 KBytes   788 Kbits/sec    6   7.07 KBytes       
+[  4]   6.00-7.00   sec  99.0 KBytes   810 Kbits/sec    6   1.41 KBytes       
+[  4]   7.00-8.00   sec  53.7 KBytes   440 Kbits/sec    5   5.66 KBytes       
+[  4]   8.00-9.00   sec  48.1 KBytes   394 Kbits/sec    5   5.66 KBytes       
+[  4]   9.00-10.00  sec  99.0 KBytes   810 Kbits/sec    4   1.41 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.27 MBytes  1.07 Mbits/sec   65             sender
+[  4]   0.00-10.00  sec  1.15 MBytes   968 Kbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h7 & h3
+Now testing bandwidth
+Connecting to host 10.0.0.7, port 5201
+[  4] local 10.0.0.3 port 53201 connected to 10.0.0.7 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1004 KBytes  8.22 Mbits/sec   19   7.07 KBytes       
+[  4]   1.00-2.00   sec   362 KBytes  2.97 Mbits/sec    4   9.90 KBytes       
+[  4]   2.00-3.00   sec   277 KBytes  2.27 Mbits/sec    4   14.1 KBytes       
+[  4]   3.00-4.00   sec   277 KBytes  2.27 Mbits/sec   10   8.48 KBytes       
+[  4]   4.00-5.00   sec   272 KBytes  2.22 Mbits/sec    6   5.66 KBytes       
+[  4]   5.00-6.00   sec   365 KBytes  2.99 Mbits/sec    4   9.90 KBytes       
+[  4]   6.00-7.00   sec   274 KBytes  2.25 Mbits/sec    6   11.3 KBytes       
+[  4]   7.00-8.00   sec   283 KBytes  2.32 Mbits/sec   10   7.07 KBytes       
+[  4]   8.00-9.00   sec  90.5 KBytes   741 Kbits/sec    7   5.66 KBytes       
+[  4]   9.00-10.00  sec   274 KBytes  2.25 Mbits/sec    5   5.66 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  3.40 MBytes  2.85 Mbits/sec   75             sender
+[  4]   0.00-10.00  sec  3.15 MBytes  2.64 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h7 & h4
+Now testing bandwidth
+Connecting to host 10.0.0.7, port 5201
+[  4] local 10.0.0.4 port 38667 connected to 10.0.0.7 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   600 KBytes  4.91 Mbits/sec   26   9.90 KBytes       
+[  4]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec    6   2.83 KBytes       
+[  4]   2.00-3.00   sec  90.5 KBytes   742 Kbits/sec    9   4.24 KBytes       
+[  4]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec    7   4.24 KBytes       
+[  4]   4.00-5.00   sec  96.2 KBytes   789 Kbits/sec    5   7.07 KBytes       
+[  4]   5.00-6.00   sec  90.5 KBytes   741 Kbits/sec    5   5.66 KBytes       
+[  4]   6.00-7.00   sec  90.5 KBytes   742 Kbits/sec    6   4.24 KBytes       
+[  4]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec    6   2.83 KBytes       
+[  4]   8.00-9.00   sec  90.5 KBytes   742 Kbits/sec    4   1.41 KBytes       
+[  4]   9.00-10.00  sec  0.00 Bytes  0.00 bits/sec    4   2.83 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.03 MBytes   866 Kbits/sec   78             sender
+[  4]   0.00-10.00  sec   874 KBytes   716 Kbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h7 & h5
+Now testing bandwidth
+Connecting to host 10.0.0.7, port 5201
+[  4] local 10.0.0.5 port 45067 connected to 10.0.0.7 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   594 KBytes  4.86 Mbits/sec   27   4.24 KBytes       
+[  4]   1.00-2.00   sec  90.5 KBytes   742 Kbits/sec    4   5.66 KBytes       
+[  4]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec    4   4.24 KBytes       
+[  4]   3.00-4.00   sec  90.5 KBytes   742 Kbits/sec    4   1.41 KBytes       
+[  4]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec    4   2.83 KBytes       
+[  4]   5.00-6.00   sec  93.3 KBytes   766 Kbits/sec    7   2.83 KBytes       
+[  4]   6.00-7.00   sec  0.00 Bytes  0.00 bits/sec    3   1.41 KBytes       
+[  4]   7.00-8.00   sec  90.5 KBytes   742 Kbits/sec    4   7.07 KBytes       
+[  4]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec    6   7.07 KBytes       
+[  4]   9.00-10.00  sec  90.5 KBytes   741 Kbits/sec    7   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.02 MBytes   859 Kbits/sec   70             sender
+[  4]   0.00-10.00  sec   863 KBytes   707 Kbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h7 & h6
+Now testing bandwidth
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+iperf3: error - the server is busy running a test. try again later
+
+
+
+Testing between h7 & h8
+Now testing bandwidth
+iperf3: error - the server is busy running a test. try again later
+
+Shutting down the iperf server
+[1] 4717
+
+Done running iperf on server h8, starting client now
+
+
+Testing between h8 & h1
+Now testing bandwidth
+Connecting to host 10.0.0.8, port 5201
+[  4] local 10.0.0.1 port 47390 connected to 10.0.0.8 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   407 KBytes  3.33 Mbits/sec   14   8.48 KBytes       
+[  4]   1.00-2.00   sec   187 KBytes  1.53 Mbits/sec   13   5.66 KBytes       
+[  4]   2.00-3.00   sec   170 KBytes  1.39 Mbits/sec    4   5.66 KBytes       
+[  4]   3.00-4.00   sec   184 KBytes  1.51 Mbits/sec    6   8.48 KBytes       
+[  4]   4.00-5.00   sec   181 KBytes  1.48 Mbits/sec    7   8.48 KBytes       
+[  4]   5.00-6.00   sec   178 KBytes  1.46 Mbits/sec    8   7.07 KBytes       
+[  4]   6.00-7.00   sec  96.2 KBytes   788 Kbits/sec    6   5.66 KBytes       
+[  4]   7.00-8.00   sec   107 KBytes   881 Kbits/sec    8   4.24 KBytes       
+[  4]   8.00-9.00   sec  76.4 KBytes   626 Kbits/sec    6   4.24 KBytes       
+[  4]   9.00-10.00  sec   139 KBytes  1.13 Mbits/sec    8   5.66 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.68 MBytes  1.41 Mbits/sec   80             sender
+[  4]   0.00-10.00  sec  1.62 MBytes  1.36 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h8 & h2
+Now testing bandwidth
+Connecting to host 10.0.0.8, port 5201
+[  4] local 10.0.0.2 port 36430 connected to 10.0.0.8 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   274 KBytes  2.24 Mbits/sec   14   9.90 KBytes       
+[  4]   1.00-2.00   sec   263 KBytes  2.16 Mbits/sec    7   8.48 KBytes       
+[  4]   2.00-3.00   sec  67.9 KBytes   556 Kbits/sec   10   2.83 KBytes       
+[  4]   3.00-4.00   sec  62.2 KBytes   510 Kbits/sec    5   5.66 KBytes       
+[  4]   4.00-5.00   sec   133 KBytes  1.09 Mbits/sec    5   7.07 KBytes       
+[  4]   5.00-6.00   sec   158 KBytes  1.30 Mbits/sec    8   5.66 KBytes       
+[  4]   6.00-7.00   sec   136 KBytes  1.11 Mbits/sec    7   4.24 KBytes       
+[  4]   7.00-8.00   sec  96.2 KBytes   788 Kbits/sec    6   5.66 KBytes       
+[  4]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec    6   1.41 KBytes       
+[  4]   9.00-10.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.16 MBytes   975 Kbits/sec   69             sender
+[  4]   0.00-10.00  sec  1.10 MBytes   922 Kbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h8 & h3
+Now testing bandwidth
+Connecting to host 10.0.0.8, port 5201
+[  4] local 10.0.0.3 port 47076 connected to 10.0.0.8 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   843 KBytes  6.90 Mbits/sec   14   14.1 KBytes       
+[  4]   1.00-2.00   sec   272 KBytes  2.22 Mbits/sec    9   7.07 KBytes       
+[  4]   2.00-3.00   sec   184 KBytes  1.51 Mbits/sec    5   8.48 KBytes       
+[  4]   3.00-4.00   sec   272 KBytes  2.22 Mbits/sec    6   9.90 KBytes       
+[  4]   4.00-5.00   sec   277 KBytes  2.27 Mbits/sec    7   8.48 KBytes       
+[  4]   5.00-6.00   sec  90.5 KBytes   740 Kbits/sec    8   2.83 KBytes       
+[  4]   6.00-7.00   sec   184 KBytes  1.51 Mbits/sec    3   8.48 KBytes       
+[  4]   7.00-8.00   sec   272 KBytes  2.22 Mbits/sec    6   7.07 KBytes       
+[  4]   8.00-9.00   sec   184 KBytes  1.50 Mbits/sec    8   7.07 KBytes       
+[  4]   9.00-10.00  sec   280 KBytes  2.30 Mbits/sec    4   9.90 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  2.79 MBytes  2.34 Mbits/sec   70             sender
+[  4]   0.00-10.00  sec  2.55 MBytes  2.14 Mbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h8 & h4
+Now testing bandwidth
+Connecting to host 10.0.0.8, port 5201
+[  4] local 10.0.0.4 port 56985 connected to 10.0.0.8 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   301 KBytes  2.46 Mbits/sec   16   8.48 KBytes       
+[  4]   1.00-2.00   sec   105 KBytes   858 Kbits/sec    4   5.66 KBytes       
+[  4]   2.00-3.00   sec  70.7 KBytes   580 Kbits/sec    6   5.66 KBytes       
+[  4]   3.00-4.00   sec   105 KBytes   857 Kbits/sec    3   7.07 KBytes       
+[  4]   4.00-5.00   sec  70.7 KBytes   579 Kbits/sec    7   5.66 KBytes       
+[  4]   5.00-6.00   sec   136 KBytes  1.11 Mbits/sec    4   4.24 KBytes       
+[  4]   6.00-7.00   sec  33.9 KBytes   278 Kbits/sec    5   4.24 KBytes       
+[  4]   7.00-8.00   sec   102 KBytes   834 Kbits/sec    4   7.07 KBytes       
+[  4]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec    6   2.83 KBytes       
+[  4]   9.00-10.00  sec  73.5 KBytes   603 Kbits/sec    4   2.83 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   997 KBytes   817 Kbits/sec   59             sender
+[  4]   0.00-10.00  sec   905 KBytes   741 Kbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h8 & h5
+Now testing bandwidth
+Connecting to host 10.0.0.8, port 5201
+[  4] local 10.0.0.5 port 55542 connected to 10.0.0.8 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   790 KBytes  6.47 Mbits/sec   26   5.66 KBytes       
+[  4]   1.00-2.00   sec  84.8 KBytes   695 Kbits/sec    6   4.24 KBytes       
+[  4]   2.00-3.00   sec  90.5 KBytes   741 Kbits/sec    6   2.83 KBytes       
+[  4]   3.00-4.00   sec  84.8 KBytes   695 Kbits/sec    4   4.24 KBytes       
+[  4]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec    3   1.41 KBytes       
+[  4]   5.00-6.00   sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]   6.00-7.00   sec  0.00 Bytes  0.00 bits/sec    3   2.83 KBytes       
+[  4]   7.00-8.00   sec  90.5 KBytes   742 Kbits/sec    3   7.07 KBytes       
+[  4]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec    5   7.07 KBytes       
+[  4]   9.00-10.00  sec   170 KBytes  1.39 Mbits/sec    4   8.48 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1.28 MBytes  1.07 Mbits/sec   62             sender
+[  4]   0.00-10.00  sec  1.10 MBytes   919 Kbits/sec                  receiver
+
+iperf Done.
+
+
+
+Testing between h8 & h6
+Now testing bandwidth
+iperf3: error - unable to receive control message: Connection reset by peer
+
+
+
+Testing between h8 & h7
+Now testing bandwidth
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Connecting to host 10.0.0.8, port 5201
+[  4] local 10.0.0.7 port 60967 connected to 10.0.0.8 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  2.97 GBytes  25.5 Gbits/sec    0    409 KBytes       
+[  4]   1.00-2.00   sec  3.57 GBytes  30.7 Gbits/sec    0    409 KBytes       
+[  4]   2.00-3.00   sec  3.56 GBytes  30.6 Gbits/sec    0    409 KBytes       
+[  4]   3.00-4.00   sec  3.51 GBytes  30.2 Gbits/sec    0    409 KBytes       
+[  4]   4.00-5.00   sec  3.49 GBytes  30.0 Gbits/sec    0    409 KBytes       
+[  4]   5.00-6.00   sec  3.54 GBytes  30.4 Gbits/sec    0    409 KBytes       
+[  4]   6.00-7.00   sec  3.55 GBytes  30.5 Gbits/sec    0    409 KBytes       
+[  4]   7.00-8.00   sec  3.53 GBytes  30.3 Gbits/sec    0    409 KBytes       
+[  4]   8.00-9.00   sec  3.54 GBytes  30.4 Gbits/sec    0    409 KBytes       
+[  4]   9.00-10.00  sec  3.46 GBytes  29.7 Gbits/sec    0    409 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  34.7 GBytes  29.8 Gbits/sec    0             sender
+[  4]   0.00-10.00  sec  34.7 GBytes  29.8 Gbits/sec                  receiver
+
+iperf Done.
+
+Shutting down the iperf server
+
+
+
+
+Measuring UDP Bandwidth between each pair of hosts
+Packet loss between each pair in percentage in brackets
+
+
+Starting server h1
+[2] 4748
+
+Done running iperf on server h%s, starting client now
+
+
+Testing between h1 & h2
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 57944 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12750 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  12.1 MBytes  9.72 Mbits/sec   0.418 ms 4136/12749 (32%)
+[  3]  0.0-10.4 sec  25 datagrams received out-of-order
+
+
+
+Testing between h1 & h3
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 44667 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12753 datagrams
+[  3] Server Report:
+[  3]  0.0-10.1 sec  17.6 MBytes  14.6 Mbits/sec   0.193 ms  211/12751 (1.7%)
+[  3]  0.0-10.1 sec  1 datagrams received out-of-order
+
+
+
+Testing between h1 & h4
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 53875 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  13.0 MBytes  9.72 Mbits/sec   0.416 ms 3487/12754 (27%)
+[  3]  0.0-11.2 sec  1 datagrams received out-of-order
+
+
+
+Testing between h1 & h5
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 36225 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  12.0 MBytes  9.71 Mbits/sec   0.478 ms 4168/12755 (33%)
+[  3]  0.0-10.4 sec  2 datagrams received out-of-order
+
+
+
+Testing between h1 & h6
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 33436 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.3 MBytes  14.5 Mbits/sec   0.109 ms  416/12755 (3.3%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+Testing between h1 & h7
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 41647 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12757 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.0 MBytes  14.3 Mbits/sec   0.062 ms  629/12756 (4.9%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+Testing between h1 & h8
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 45220 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.0 MBytes  14.3 Mbits/sec   0.104 ms  636/12755 (5%)
+[  3]  0.0-10.0 sec  2 datagrams received out-of-order
+
+Shutting down the iperf server
+Starting server h2
+
+Done running iperf on server h%s, starting client now
+
+
+Testing between h2 & h1
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 58860 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  13.0 MBytes  9.72 Mbits/sec   0.339 ms 3490/12756 (27%)
+
+
+
+Testing between h2 & h3
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 59431 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12753 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  13.0 MBytes  9.72 Mbits/sec   0.424 ms 3461/12752 (27%)
+[  3]  0.0-11.2 sec  11 datagrams received out-of-order
+
+
+
+Testing between h2 & h4
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 52070 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.7 MBytes  14.9 Mbits/sec   0.120 ms  123/12755 (0.96%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+Testing between h2 & h5
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 47721 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12755 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.7 MBytes  14.9 Mbits/sec   0.076 ms  120/12754 (0.94%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+Testing between h2 & h6
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 57598 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  13.0 MBytes  9.72 Mbits/sec   0.367 ms 3468/12754 (27%)
+[  3]  0.0-11.2 sec  4 datagrams received out-of-order
+
+
+
+Testing between h2 & h7
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 54527 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  13.0 MBytes  9.72 Mbits/sec   0.403 ms 3490/12755 (27%)
+[  3]  0.0-11.2 sec  4 datagrams received out-of-order
+
+
+
+Testing between h2 & h8
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 41396 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  13.0 MBytes  9.72 Mbits/sec   0.415 ms 3490/12755 (27%)
+[  3]  0.0-11.2 sec  1 datagrams received out-of-order
+
+Shutting down the iperf server
+Starting server h3
+[2] 4856
+
+Done running iperf on server h%s, starting client now
+
+
+Testing between h3 & h1
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 58904 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.1 sec  17.6 MBytes  14.6 Mbits/sec   0.134 ms  226/12755 (1.8%)
+[  3]  0.0-10.1 sec  1 datagrams received out-of-order
+
+
+
+Testing between h3 & h2
+Now testing bandwidth
+read failed: Connection refused
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 45106 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.7 MBytes  9.53 Mbits/sec   0.407 ms 3676/12756 (29%)
+
+
+
+Testing between h3 & h4
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 41428 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.8 MBytes  9.51 Mbits/sec   0.438 ms 4345/12755 (34%)
+[  3]  0.0-10.4 sec  2 datagrams received out-of-order
+
+
+
+Testing between h3 & h5
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 34279 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.8 MBytes  9.57 Mbits/sec   0.301 ms 3633/12756 (28%)
+[  3]  0.0-11.2 sec  1 datagrams received out-of-order
+
+
+
+Testing between h3 & h6
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 60799 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.7 MBytes  14.8 Mbits/sec   0.068 ms  132/12755 (1%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+Testing between h3 & h7
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 36493 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.4 MBytes  14.6 Mbits/sec   0.132 ms  347/12755 (2.7%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+Testing between h3 & h8
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 45033 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.4 MBytes  14.6 Mbits/sec   0.068 ms  348/12755 (2.7%)
+[  3]  0.0-10.0 sec  3 datagrams received out-of-order
+
+Shutting down the iperf server
+Starting server h4
+
+Done running iperf on server h%s, starting client now
+
+
+Testing between h4 & h1
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 40775 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.9 MBytes  9.63 Mbits/sec   0.436 ms 3581/12755 (28%)
+[  3]  0.0-11.2 sec  1 datagrams received out-of-order
+
+
+
+Testing between h4 & h2
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 43678 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12753 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.7 MBytes  14.9 Mbits/sec   0.288 ms  125/12753 (0.98%)
+
+
+
+Testing between h4 & h3
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 54164 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.3 sec  13.0 MBytes  9.64 Mbits/sec   0.530 ms 3510/12755 (28%)
+[  3]  0.0-11.3 sec  1 datagrams received out-of-order
+
+
+
+Testing between h4 & h5
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 48185 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12755 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec   0.005 ms    0/12754 (0%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+Testing between h4 & h6
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 57266 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.9 MBytes  9.62 Mbits/sec   0.447 ms 3583/12755 (28%)
+[  3]  0.0-11.2 sec  2 datagrams received out-of-order
+
+
+
+Testing between h4 & h7
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 53472 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.3 sec  11.8 MBytes  9.59 Mbits/sec   0.392 ms 4334/12755 (34%)
+[  3]  0.0-10.3 sec  2 datagrams received out-of-order
+
+
+
+Testing between h4 & h8
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 51033 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12757 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.9 MBytes  9.62 Mbits/sec   0.412 ms 3585/12756 (28%)
+[  3]  0.0-11.2 sec  1 datagrams received out-of-order
+
+Shutting down the iperf server
+Starting server h5
+[2] 4962
+
+Done running iperf on server h%s, starting client now
+
+
+Testing between h5 & h1
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 57760 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.9 MBytes  9.63 Mbits/sec   0.398 ms 3576/12755 (28%)
+[  3]  0.0-11.2 sec  1 datagrams received out-of-order
+
+
+
+Testing between h5 & h2
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 55354 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.7 MBytes  14.9 Mbits/sec   0.067 ms  127/12755 (1%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+Testing between h5 & h3
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 48541 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12752 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.9 MBytes  9.62 Mbits/sec   0.440 ms 4270/12751 (33%)
+[  3]  0.0-10.4 sec  3 datagrams received out-of-order
+
+
+
+Testing between h5 & h4
+Now testing bandwidth
+read failed: Connection refused
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 39239 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec   0.008 ms    0/12755 (0%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+Testing between h5 & h6
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 55611 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12755 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.9 MBytes  9.59 Mbits/sec   0.432 ms 4291/12754 (34%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+
+
+
+Testing between h5 & h7
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 36252 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.9 MBytes  9.63 Mbits/sec   0.488 ms 3575/12755 (28%)
+[  3]  0.0-11.2 sec  2 datagrams received out-of-order
+
+
+
+Testing between h5 & h8
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 33013 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12757 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.8 MBytes  9.61 Mbits/sec   0.436 ms 3601/12756 (28%)
+
+Shutting down the iperf server
+Starting server h6
+
+Done running iperf on server h%s, starting client now
+
+
+Testing between h6 & h1
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 48235 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.1 sec  17.3 MBytes  14.4 Mbits/sec   0.083 ms  405/12755 (3.2%)
+[  3]  0.0-10.1 sec  1 datagrams received out-of-order
+
+
+
+Testing between h6 & h2
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 45311 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.6 MBytes  9.46 Mbits/sec   0.543 ms 3739/12753 (29%)
+[  3]  0.0-11.2 sec  1 datagrams received out-of-order
+
+
+
+Testing between h6 & h3
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 35531 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.7 MBytes  14.8 Mbits/sec   0.069 ms  135/12755 (1.1%)
+[  3]  0.0-10.0 sec  2 datagrams received out-of-order
+
+
+
+Testing between h6 & h4
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 39862 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.6 MBytes  9.42 Mbits/sec   0.343 ms 3780/12755 (30%)
+[  3]  0.0-11.2 sec  3 datagrams received out-of-order
+
+
+
+Testing between h6 & h5
+Now testing bandwidth
+read failed: Connection refused
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 43503 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.6 MBytes  9.41 Mbits/sec   0.331 ms 3794/12755 (30%)
+[  3]  0.0-11.2 sec  2 datagrams received out-of-order
+
+
+
+Testing between h6 & h7
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 46592 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.5 MBytes  14.7 Mbits/sec   0.099 ms  256/12755 (2%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+Testing between h6 & h8
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 34090 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.5 MBytes  14.7 Mbits/sec   0.107 ms  268/12755 (2.1%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+Shutting down the iperf server
+Starting server h7
+
+Done running iperf on server h%s, starting client now
+
+
+Testing between h7 & h1
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 39510 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12752 datagrams
+[  3] Server Report:
+[  3]  0.0-10.1 sec  17.0 MBytes  14.2 Mbits/sec   0.127 ms  630/12751 (4.9%)
+[  3]  0.0-10.1 sec  1 datagrams received out-of-order
+
+
+
+Testing between h7 & h2
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 43790 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12755 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.4 MBytes  9.25 Mbits/sec   0.410 ms 3940/12753 (31%)
+[  3]  0.0-11.2 sec  1 datagrams received out-of-order
+
+
+
+Testing between h7 & h3
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 47569 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.3 MBytes  14.5 Mbits/sec   0.116 ms  402/12755 (3.2%)
+[  3]  0.0-10.0 sec  3 datagrams received out-of-order
+
+
+
+Testing between h7 & h4
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 37927 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.4 MBytes  9.24 Mbits/sec   0.767 ms 4601/12755 (36%)
+[  3]  0.0-10.4 sec  2 datagrams received out-of-order
+
+
+
+Testing between h7 & h5
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 59729 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.3 MBytes  9.24 Mbits/sec   0.509 ms 3946/12755 (31%)
+[  3]  0.0-11.2 sec  1 datagrams received out-of-order
+
+
+
+Testing between h7 & h6
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 37467 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.5 MBytes  14.7 Mbits/sec   0.059 ms  248/12755 (1.9%)
+[  3]  0.0-10.0 sec  4 datagrams received out-of-order
+
+
+
+Testing between h7 & h8
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 34055 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec   0.005 ms    0/12755 (0%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+Shutting down the iperf server
+Starting server h8
+[2] 5120
+
+Done running iperf on server h%s, starting client now
+
+
+Testing between h8 & h1
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 54135 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12753 datagrams
+[  3] Server Report:
+[  3]  0.0-10.1 sec  17.0 MBytes  14.1 Mbits/sec   0.188 ms  645/12753 (5.1%)
+
+
+
+Testing between h8 & h2
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 50535 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12755 datagrams
+[  3] Server Report:
+[  3]  0.0-11.2 sec  12.3 MBytes  9.23 Mbits/sec   0.402 ms 3956/12753 (31%)
+[  3]  0.0-11.2 sec  1 datagrams received out-of-order
+
+
+
+Testing between h8 & h3
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 38648 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.3 MBytes  14.5 Mbits/sec   0.053 ms  404/12755 (3.2%)
+[  3]  0.0-10.0 sec  3 datagrams received out-of-order
+
+
+
+Testing between h8 & h4
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 53580 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.4 MBytes  9.19 Mbits/sec   0.460 ms 4644/12755 (36%)
+[  3]  0.0-10.4 sec  3 datagrams received out-of-order
+
+
+
+Testing between h8 & h5
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 46436 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.4 MBytes  9.20 Mbits/sec   0.475 ms 4627/12755 (36%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+
+
+
+Testing between h8 & h6
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 44107 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.3 sec  17.5 MBytes  14.4 Mbits/sec  15.758 ms  241/12755 (1.9%)
+[  3]  0.0-10.3 sec  2 datagrams received out-of-order
+
+
+
+Testing between h8 & h7
+Now testing bandwidth
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 59730 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 12756 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec   0.005 ms    0/12755 (0%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+Shutting down the iperf server
